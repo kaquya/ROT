@@ -81,6 +81,7 @@ Most districts connect through this area.
 
 General world structure:
 
+```
                 Forest Region
                      |
         Residential District
@@ -92,6 +93,7 @@ Emergency Center  Hospital   Harbor
                      Research Center
                                |
                   Rot Convergence Chamber
+```
 
 This layout ensures that the world feels interconnected while still allowing controlled progression.
 

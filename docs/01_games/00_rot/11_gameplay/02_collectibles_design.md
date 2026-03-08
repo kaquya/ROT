@@ -1,65 +1,65 @@
 # ROT – Collectibles Design
 
-Version: 1.0  
+Version: 1.1  
 Status: Gameplay System Design
 
 ---
 
 # 1. Purpose of the Collectibles System
 
-Collectibles provide **environmental storytelling** throughout the world of ROT.
+Collectibles provide **environmental storytelling and world-building** throughout ROT.
 
-Rather than delivering the narrative through cutscenes alone, players uncover fragments of information scattered across the town of Blackwater Cove.
+Instead of relying on cutscenes, the player reconstructs the history of the Blackwater Cove outbreak through documents, artifacts, and recordings found across the world.
 
-These collectibles serve several purposes:
+The collectibles system serves several functions:
 
 • expand the lore of the ROT universe  
-• provide context for the Blackwater Cove outbreak  
-• reveal Halcyon’s secret research programs  
+• reveal the escalation of the Blackwater outbreak  
+• expose Halcyon’s secret research programs  
 • reward exploration  
-• connect gameplay locations with the franchise timeline  
+• foreshadow future franchise mysteries  
 
-The collectibles system allows players who explore carefully to uncover deeper layers of the story.
+Collectibles allow players to uncover deeper narrative layers while exploring the world.
 
-Players who focus primarily on survival can still complete the game without collecting every document.
+Players can complete the game without collecting every item, but dedicated explorers will gain a much richer understanding of the universe.
 
 ---
 
 # 2. Collectible Categories
 
-Collectibles are divided into several categories based on their origin and narrative role.
+Collectibles are divided into several categories.
 
-Each category reveals a different perspective on the events leading up to the outbreak.
+Each category represents a **different perspective on the outbreak**.
 
 ---
 
-## 2.1 Civilian Records
+# 3. Civilian Records
 
-Civilian records come from the residents of Blackwater Cove.
+Civilian records originate from the residents of Blackwater Cove.
 
-These include:
+These documents provide the **human perspective of the outbreak**.
+
+Examples include:
 
 • personal diaries  
 • handwritten notes  
 • letters  
-• household records  
+• missing persons notices  
 
-Civilian collectibles reveal how the town experienced the early stages of the outbreak.
+Topics revealed:
 
-Topics may include:
-
+• early signs of infection  
 • evacuation attempts  
-• missing family members  
-• strange environmental changes  
-• panic during the quarantine collapse  
+• family separation  
+• fear during quarantine collapse  
 
-These collectibles reference events described in **blackwater_history.md**.
+These collectibles strongly reference events described in **blackwater_history.md**.
 
 ---
 
-## 2.2 Emergency Communications
+# 4. Emergency Communications
 
-Emergency communication records originate from local authorities and emergency services.
+These records originate from emergency services and local authorities.
 
 Examples include:
 
@@ -68,251 +68,207 @@ Examples include:
 • evacuation instructions  
 • medical alerts  
 
-These collectibles reveal how the town attempted to respond to the outbreak.
+These collectibles show how authorities attempted to contain the outbreak.
 
-They also show how quickly the situation deteriorated.
-
-These records connect directly to events described in **timeline.md**, particularly the **quarantine collapse**.
+They connect directly to the **timeline.md quarantine collapse events**.
 
 ---
 
-## 2.3 Halcyon Research Logs
+# 5. Halcyon Research Logs
 
-Halcyon research logs originate from the **Halcyon Initiative** research programs.
+These records originate from Halcyon laboratories.
 
-These documents reveal the scientific study of the Rot organism.
+They reveal the scientific study of the Rot.
 
 Examples include:
 
-• laboratory reports  
-• experiment logs  
-• internal research notes  
-• containment reports  
+• laboratory experiment reports  
+• biological analysis logs  
+• containment failure reports  
+• marine sample documentation  
 
-These records connect directly to the information found in **halcyon_records.md**.
+These logs connect directly to **halcyon_records.md**.
 
-They reveal the progression of Halcyon's research and the mistakes that led to the containment breach.
+They show how Halcyon's research escalated beyond safe limits.
 
 ---
 
-## 2.4 Personal Research Journals
+# 6. Personal Research Journals
 
-Certain Halcyon researchers maintained private journals.
+Some Halcyon researchers kept private journals.
 
-These journals reveal internal conflict among researchers.
+These documents reveal **internal disagreements within the organization**.
 
 Topics include:
 
-• ethical concerns about Rot experiments  
-• disagreements with Halcyon leadership  
+• ethical concerns about Rot experimentation  
 • warnings about containment instability  
+• fear of the organism’s true capabilities  
 
-Some of these journals reference **Dr. Victor Soren's theories** about the Rot organism.
+Some entries reference **Dr. Victor Soren’s theories about the Rot structure**.
 
-These collectibles help foreshadow the final stages of the game.
+These journals foreshadow the events of the final act.
 
 ---
 
-## 2.5 Environmental Observation Logs
+# 7. Environmental Observation Logs
 
-These records come from marine researchers, fishermen, and environmental scientists.
+These records originate from fishermen, forest rangers, and environmental researchers.
 
-They describe strange biological phenomena occurring around Blackwater Cove.
+They describe strange ecological changes around Blackwater Cove.
 
 Examples include:
 
-• unusual marine samples recovered from fishing nets  
+• unusual marine organisms recovered from fishing nets  
 • aggressive wildlife behavior  
-• unexplained fungal growth in forests  
+• abnormal fungal growth in forests  
 
-These logs foreshadow the early stages of the Rot ecosystem described in **timeline.md**.
-
----
-
-# 3. Collectible Placement Philosophy
-
-Collectibles should feel **naturally integrated into the environment**.
-
-Documents should appear in believable locations such as:
-
-• desks  
-• lockers  
-• laboratory workstations  
-• abandoned homes  
-• emergency shelters  
-
-Players should never feel like collectibles were randomly placed.
-
-Each document should reinforce the history of the location where it is found.
+These collectibles foreshadow the development of the Rot ecosystem described in **timeline.md**.
 
 ---
 
-# 4. District-Based Collectible Distribution
+# 8. Audio Recordings
 
-Each district in Blackwater Cove contains specific collectible types that reflect the events that occurred there.
+Some collectibles are **audio logs** rather than written documents.
 
----
-
-## 4.1 Residential District
-
-Early civilian accounts appear in the residential district.
+Audio recordings add emotional impact and variety.
 
 Examples include:
 
-• evacuation letters left behind by residents  
-• family journals describing early symptoms  
-• missing persons notices  
+• emergency radio calls  
+• recorded research notes  
+• distress messages from survivors  
+• Halcyon laboratory recordings  
 
-These collectibles introduce the player to the early stages of the outbreak.
-
-They connect strongly to the **Blackwater Cove historical record**.
+Audio logs can be played while exploring.
 
 ---
 
-## 4.2 Downtown District
+# 9. Visual Artifacts
 
-Downtown collectibles focus on the town's emergency response.
+Some collectibles are physical artifacts rather than text.
 
 Examples include:
 
-• evacuation announcements  
-• municipal emergency notices  
-• reports from the emergency coordination center  
+• photographs of the town before the outbreak  
+• Halcyon identification badges  
+• damaged laboratory equipment  
+• biological sample containers  
 
-These documents reveal how local authorities attempted to contain the outbreak.
+These artifacts strengthen immersion by showing physical evidence of the story.
 
 ---
 
-## 4.3 Emergency Coordination Center
+# 10. Rot Artifacts
 
-This district contains official emergency communications.
+Rare collectibles directly connected to the Rot organism.
 
 Examples include:
 
-• police radio transcripts  
-• medical emergency reports  
-• quarantine enforcement orders  
+• fossilized Rot structures  
+• unusual marine biological samples  
+• preserved Rot tissue fragments  
 
-These records document the final hours before the town collapsed.
+These artifacts hint at the **ancient nature of the Rot ecosystem**.
+
+They reinforce the mystery described in **rot_mysteries.md**.
 
 ---
 
-## 4.4 Harbor District
+# 11. Collectible Placement Philosophy
 
-Harbor collectibles reveal the earliest physical signs of the Rot.
+Collectibles must always appear in **logical environmental locations**.
 
 Examples include:
 
-• fishermen reports describing strange biological material in nets  
-• maintenance logs from harbor mechanics  
-• cargo inspection reports  
+Desks and Offices
 
-One important collectible may reference **Daniel Voss examining unusual samples**, tying into the game's central narrative.
+• research notes  
+• administrative records  
 
----
+Homes
 
-## 4.5 Hospital
+• personal diaries  
+• family photographs  
 
-Hospital collectibles reveal the medical response to the infection.
+Hospitals
 
-Examples include:
+• medical reports  
+• patient records  
 
-• patient diagnosis reports  
-• medical staff journals  
-• infection symptom analysis  
+Laboratories
 
-These records provide the first scientific descriptions of Rot infection symptoms.
+• experiment documentation  
+• containment reports  
 
----
-
-## 4.6 Forest Region
-
-The forest contains environmental observation records.
-
-Examples include:
-
-• ranger reports describing unusual wildlife  
-• camping journals describing strange forest growth  
-• wildlife monitoring data  
-
-These collectibles reinforce the idea that the Rot ecosystem extends beyond the town.
+Placement should always reinforce the location’s narrative role.
 
 ---
 
-## 4.7 Halcyon Marine Research Center
+# 12. District Collectible Distribution
 
-This district contains the most important lore collectibles.
+Each district contains specific collectible types reflecting events that occurred there.
 
-Examples include:
+Approximate distribution:
 
-• Halcyon experiment reports  
-• Rot growth research logs  
-• containment breach documentation  
+Residential District — 12 collectibles  
+Downtown District — 10 collectibles  
+Emergency Coordination Center — 8 collectibles  
+Harbor District — 12 collectibles  
+Aquarium — 6 collectibles  
+Hospital District — 10 collectibles  
+Forest Region — 6 collectibles  
+Trawler Graveyard — 4 collectibles  
+Halcyon Research Center — 14 collectibles  
+Rot Convergence Chamber — 3 collectibles
 
-These records connect directly to the events described in **halcyon_records.md**.
-
-Players learn the true scale of Halcyon's experiments here.
-
----
-
-## 4.8 Rot Convergence Chamber
-
-The final area contains only a few collectibles.
-
-These include:
-
-• Dr. Victor Soren's final research notes  
-• emergency facility shutdown logs  
-
-These documents foreshadow the final confrontation.
+Total estimated collectibles: **85–90**
 
 ---
 
-# 5. Collectible Tracking System
+# 13. Collectible Tracking System
 
-The game tracks collectible discovery.
+The game tracks collectible discovery through the **Archive System**.
 
-Players can review discovered collectibles through the **Archives menu**.
+The Archive menu allows players to:
 
-The archive system allows players to:
+• reread documents  
+• replay audio logs  
+• view artifact descriptions  
+• track collectible completion progress  
 
-• reread collected documents  
-• track completion progress  
-• review story details they may have missed  
-
-This system encourages exploration and completion.
+Collectibles are organized by category and location.
 
 ---
 
-# 6. Completion Rewards
+# 14. Completion Rewards
 
-Collecting a large portion of the documents may unlock additional rewards.
+Players who collect a large percentage of collectibles unlock additional content.
 
 Examples include:
 
 • additional lore entries  
-• concept artwork  
+• concept art  
 • developer commentary  
+• hidden Rot ecosystem research notes
 
-These rewards provide additional incentive for thorough exploration.
+Completionists gain deeper insight into the ROT universe.
 
 ---
 
-# 7. Narrative Goals
+# 15. Narrative Goals
 
-The collectibles system supports several narrative goals.
-
-Players gradually discover:
+The collectibles system gradually reveals:
 
 • the history of Blackwater Cove  
-• the escalation of the Rot outbreak  
-• Halcyon's secret research programs  
-• the true danger of the Rot ecosystem  
+• the spread of the Rot outbreak  
+• Halcyon’s internal research conflicts  
+• the ancient origins of the Rot ecosystem  
 
-The system allows the story to unfold naturally through exploration.
+The story emerges through exploration rather than forced exposition.
 
-Rather than forcing exposition through dialogue, the player uncovers the truth piece by piece.
+Players piece together the truth by examining the world itself.
 
-This approach reinforces the survival horror atmosphere and encourages careful exploration of the world.
+This method reinforces the survival horror atmosphere and encourages careful exploration.
 
 ---

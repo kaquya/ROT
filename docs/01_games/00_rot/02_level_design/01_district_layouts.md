@@ -1,519 +1,1130 @@
 # ROT – District Layouts
 
-Version: 1.0  
-Status: World Layout Design
+Version: 1.1  
+Status: Level Design Specification
 
 ---
 
 # 1. Purpose of This Document
 
-This document defines the **spatial layout and gameplay flow** of each district in Blackwater Cove.
+This document defines the **internal spatial layout and gameplay structure** of each district in Blackwater Cove.
 
-While the world_map document describes the overall structure of the town, this document focuses on:
+While `world_map.md` describes the global structure of the town, this document focuses on:
 
 • internal district layouts  
 • exploration routes  
 • shortcut placement  
-• safe zone locations  
-• encounter design zones  
+• encounter zones  
+• puzzle integration  
+• safe zone placement  
 
-These layouts guide the **level blockout phase** during development.
+These layouts guide the **level blockout phase** of development.
 
-The goal is to ensure that each district supports exploration, tension, and environmental storytelling.
+The goal is to ensure each district supports:
+
+• exploration-driven gameplay  
+• survival tension  
+• environmental storytelling  
+• clear navigation flow  
 
 ---
 
 # 2. District Layout Philosophy
 
-Each district is designed around several principles.
+Each district follows several key level design principles.
 
 ---
 
 ## Exploration Loops
 
-Districts should allow players to navigate through multiple routes rather than a single path.
+Districts should not be purely linear.
 
-A typical loop structure includes:
+Players should be able to navigate areas through **multiple interconnected paths**.
+
+Typical loop structure includes:
 
 • a primary entry path  
-• several branching side areas  
+• branching side areas  
+• optional exploration zones  
 • hidden shortcuts  
-• optional exploration spaces
 
-This encourages players to explore the environment thoroughly.
+This structure encourages players to learn the geography of the environment.
 
 ---
 
-## Environmental Landmarks
+## Navigation Landmarks
 
-Each district should contain recognizable structures that help the player navigate.
+Each district should contain recognizable visual landmarks that help orient the player.
 
 Examples include:
 
 • water towers  
-• lighthouses  
-• hospital emergency signs  
-• large industrial cranes
+• lighthouse structures  
+• large industrial cranes  
+• hospital signage  
 
-These landmarks allow players to orient themselves without relying heavily on the map.
+These landmarks allow players to navigate without relying on an artificial minimap.
 
 ---
 
-## Controlled Progression
+## Vertical Level Design
 
-Although districts are interconnected, some areas remain locked until the player obtains:
+Many districts include vertical traversal elements.
 
-• key items  
-• access cards  
-• puzzle solutions
+Examples include:
 
-This ensures the player explores districts gradually.
+• rooftops  
+• staircases  
+• elevated walkways  
+• ship decks  
+
+Verticality adds tension and improves combat variety.
+
+---
+
+## Rot Exposure Integration
+
+Certain areas contain higher concentrations of Rot biomass.
+
+These locations gradually increase the player’s **Rot exposure level**.
+
+Examples include:
+
+• infected buildings  
+• underground chambers  
+• dense Rot growth areas  
+
+This system encourages players to move cautiously through heavily corrupted environments.
 
 ---
 
 # 3. Residential District Layout
 
-The Residential District is the player's first major exploration zone.
+The Residential District is the **first major exploration area** in the game.
 
-This area should feel like a believable neighborhood.
+This location introduces the core gameplay systems.
+
+The environment should feel familiar and grounded in reality.
 
 ---
 
-## Key Locations
+## Environmental Theme
 
-Important structures include:
+Suburban coastal neighborhood.
 
-• Elena’s childhood home  
-• residential streets  
-• small neighborhood park  
+Features include:
+
+• small family homes  
+• narrow residential streets  
+• backyard fences  
 • abandoned vehicles  
-• survivor barricades
+• neighborhood parks
+
+Early Rot corruption is visible but not overwhelming.
+
+---
+
+## Major Locations
+
+Key structures include:
+
+Elena’s Childhood Home
+
+Acts as the first safe zone.
+
+Residential Streets
+
+Main exploration routes through the district.
+
+Neighborhood Park
+
+Open environment used for early enemy encounters.
+
+Abandoned Apartment Block
+
+First interior exploration location.
 
 ---
 
 ## Layout Structure
 
-The residential area follows a loose grid of streets connected by alleys.
+The residential district is structured as a loose grid.
 
 Example layout:
 
-Main Street
 
-Central residential road containing multiple houses.
-
-Side Streets
-
-Smaller roads branching off the main street.
-
-Back Alleys
-
-Narrow paths behind houses allowing alternate routes.
-
+Apartment Block
+|
 Park Area
+|
+Main Street
+/
+Back Alley Elena's House
+|
+Roadblock to Downtown
 
-Small open area providing environmental contrast.
+
+The district gradually opens as the player explores surrounding houses.
 
 ---
 
 ## Exploration Flow
 
-Players begin at Elena’s house.
+The player begins at Elena’s house.
 
-From there they explore surrounding streets while encountering the first Rot enemies.
+Initial exploration includes:
 
-Exploration leads toward a blocked road connecting to downtown.
+• searching nearby homes  
+• discovering supplies  
+• encountering early infected enemies  
+
+Exploration eventually leads to a blocked road connecting to downtown.
+
+Players must solve a simple environmental puzzle to unlock access.
+
+---
+
+## Encounter Design
+
+Enemy density remains relatively low in this district.
+
+Primary enemies:
+
+• Rotters  
+• Collapsed Rotters
+
+Encounters are designed to introduce:
+
+• stealth mechanics  
+• basic combat  
+• resource management
+
+---
+
+## Shortcut Placement
+
+Shortcuts allow players to navigate the district more quickly after exploration.
+
+Examples include:
+
+• unlocked alley gates  
+• opened backyard fences  
+• interior house connections
+
+These shortcuts reduce travel time during later revisits.
 
 ---
 
 # 4. Downtown District Layout
 
-Downtown serves as the central hub of the game world.
+Downtown acts as the **central hub of the game world**.
 
-This district contains a mixture of commercial and municipal buildings.
+Players revisit this district multiple times.
 
 ---
 
-## Key Locations
+## Environmental Theme
 
-Downtown contains:
+Small coastal town center.
 
-• town hall  
-• local café  
-• grocery store  
-• clock tower square  
-• municipal offices
+Features include:
+
+• local shops  
+• restaurants  
+• municipal buildings  
+• narrow service alleys  
+• clock tower plaza
+
+The environment should feel dense and interconnected.
+
+---
+
+## Major Locations
+
+Clock Tower Square
+
+Central landmark and navigation anchor.
+
+Town Hall
+
+Contains documents describing early outbreak response.
+
+Local Café
+
+Acts as the downtown safe zone.
+
+Grocery Store
+
+Contains resource caches and environmental storytelling.
 
 ---
 
 ## Layout Structure
 
-The downtown area is built around a central plaza.
+Downtown is organized around a central plaza.
 
-Example structure:
+Example layout:
 
-Clock Tower Square
+```      
+                         Town Hall
+                            |
+Commercial Street — Clock Tower Plaza — Market Street
+       |
+Café Safe Zone
+```
 
-Large central plaza acting as a navigation landmark.
 
-Commercial Street
-
-Row of small shops and restaurants.
-
-Service Alleys
-
-Hidden paths connecting buildings.
-
-Municipal Buildings
-
-Town hall and government offices.
+Multiple narrow alleyways connect buildings together.
 
 ---
 
-## Navigation Role
+## Exploration Role
 
-Downtown connects to multiple districts:
+Downtown functions as the **central connector for multiple districts**.
+
+District connections include:
 
 Residential District  
 Emergency Coordination Center  
 Hospital District  
 Harbor District
 
-Because of this, players revisit downtown frequently throughout the game.
+Because of this, players will frequently return to downtown.
+
+---
+
+## Encounter Design
+
+Enemy density increases compared to the residential district.
+
+Enemy types include:
+
+• Rotters  
+• Collapsed Rotters  
+• early Stalker encounters
+
+Ambush encounters occur in narrow alleyways.
+
+---
+
+## Environmental Storytelling
+
+Downtown shows the **collapse of organized evacuation efforts**.
+
+Examples include:
+
+• overturned military vehicles  
+• barricaded storefronts  
+• emergency medical stations
+
+Players begin discovering Halcyon-related documents in this area.
 
 ---
 
 # 5. Emergency Coordination Center Layout
 
-This area was converted into the town’s emergency command hub during the outbreak.
+The Emergency Coordination Center represents the town’s attempt to organize evacuation and containment during the early outbreak.
+
+This district introduces **more complex interior exploration and puzzle systems**.
 
 ---
 
-## Key Locations
+## Environmental Theme
 
-The center contains:
+Emergency operations hub built from municipal buildings.
 
-• emergency operations room  
-• communication control room  
-• refugee shelter area  
-• equipment storage
+Features include:
+
+• temporary command rooms  
+• communication equipment  
+• emergency generators  
+• refugee shelters  
+• barricaded hallways
+
+This area should feel like a **rapidly assembled crisis response center**.
+
+---
+
+## Major Locations
+
+Entrance Lobby
+
+Initial access point containing evacuation notices and emergency broadcasts.
+
+Operations Room
+
+Large command center with planning maps and emergency equipment.
+
+Communications Wing
+
+Contains damaged radio equipment used in puzzle sequences.
+
+Supply Storage
+
+Contains resources and evidence of failed evacuation planning.
+
+Refugee Shelter
+
+Temporary housing area showing the human side of the outbreak.
 
 ---
 
 ## Layout Structure
 
-The district is primarily interior-based.
+The district is primarily interior-based with interconnected rooms.
 
-Layout example:
+Example layout:
 
-Entrance Hall
+```
+       Entrance Lobby
+            |
+     Operations Room
+   /               \
+Comms Wing     Shelter Area
+|
+Backup Generator Room
+```
 
-Initial access point.
 
-Operations Room
-
-Large command center containing emergency planning equipment.
-
-Communications Wing
-
-Room containing damaged communication equipment used in puzzles.
-
-Shelter Area
-
-Temporary housing area for displaced residents.
+The player must restore power to activate communication systems.
 
 ---
 
 ## Gameplay Focus
 
-This district introduces environmental puzzles involving restoring communications and activating equipment.
+Key mechanics introduced here:
+
+• multi-room puzzles  
+• power restoration systems  
+• document discovery  
+• environmental storytelling
+
+Players begin uncovering early reports about the Rot phenomenon.
+
+---
+
+## Encounter Design
+
+Enemy encounters remain moderate but more unpredictable.
+
+Primary enemies:
+
+• Rotters  
+• Collapsed Rotters  
+• occasional Shadow Stalker
+
+Enemies may emerge from previously quiet rooms after puzzles activate power.
 
 ---
 
 # 6. Harbor District Layout
 
-The harbor is the economic center of Blackwater Cove and the location where Rot contamination becomes highly visible.
+The Harbor District represents the **true beginning of heavy Rot corruption**.
 
-This district should feel industrial and chaotic, with structures damaged during evacuation attempts.
+This is where the infection becomes clearly visible in the environment.
 
 ---
 
-## Key Locations
+## Environmental Theme
 
-Important harbor locations include:
+Industrial fishing harbor.
 
-• main dock platforms  
+Features include:
+
+• dock platforms  
 • cargo warehouses  
-• fishing boat repair garage  
-• harbor control tower  
-• lighthouse access road
+• repair garages  
+• cranes and mechanical equipment  
+• fishing vessels
+
+Rot growth merges with machinery and marine infrastructure.
+
+---
+
+## Major Locations
+
+Dock Platforms
+
+Open combat areas with fishing vessels and loading cranes.
+
+Warehouse Row
+
+Interior exploration spaces containing storage containers and machinery.
+
+Boat Repair Garage
+
+Workshop used for repairing fishing vessels.
+
+Harbor Control Tower
+
+Provides a high vantage point overlooking the harbor.
 
 ---
 
 ## Layout Structure
 
-The harbor is divided into three primary sections.
+The harbor is divided into several interconnected sections.
 
-Dock Platforms
+Example layout:
 
-Large open areas with fishing vessels and cargo cranes.
 
-Warehouse Row
+```
+        Dock Platforms
+              |
+        Warehouse Row
+          /        \
+Repair Garage    Control Tower
+        |
+Coastal Path to Aquarium
+```
 
-Industrial buildings used for storage and processing.
 
-Harbor Service Area
-
-Repair garages and mechanical equipment.
-
----
-
-## Exploration Routes
-
-Players may explore:
-
-• dock walkways  
-• warehouse interiors  
-• rooftop access points
-
-These routes provide alternate paths through the district.
+Vertical walkways between cranes and ship decks add traversal variety.
 
 ---
 
 ## Environmental Hazards
 
-The harbor contains multiple hazards.
+The harbor contains numerous hazards.
 
 Examples include:
 
 • unstable cranes  
 • explosive fuel containers  
-• Rot growth structures
+• electrified water puddles  
+• Rot biomass growth blocking pathways
 
-These hazards can be used during combat encounters.
+Players can use hazards strategically during combat.
 
 ---
 
-# 7. Hospital District Layout
+## Encounter Design
 
-The hospital environment should feel oppressive and claustrophobic.
+Enemy density increases significantly.
+
+Primary enemies include:
+
+• Harbor Rotters  
+• Shadow Stalkers  
+• Hunter Stalkers
+
+The harbor also contains the **Harbor Bloom Guardian boss encounter**.
+
+---
+
+# 7. Rot Aquarium Layout
+
+The Rot Aquarium is one of the game’s major setpiece locations.
+
+This district introduces **marine Rot organisms**.
+
+---
+
+## Environmental Theme
+
+Flooded marine research and aquarium complex.
+
+Features include:
+
+• shattered aquarium tanks  
+• submerged hallways  
+• flooded maintenance tunnels  
+• broken observation decks
+
+Lighting is dim and visibility is reduced due to water damage.
+
+---
+
+## Major Locations
+
+Main Aquarium Hall
+
+Large tank structures with shattered glass.
+
+Marine Research Wing
+
+Rooms containing Halcyon marine experiment data.
+
+Flooded Maintenance Corridor
+
+Partially submerged passageways requiring careful navigation.
+
+Observation Tunnel
+
+Glass tunnel originally used for underwater viewing.
+
+---
+
+## Layout Structure
+
+The aquarium is primarily interior with water-filled corridors.
+
+Example layout:
+
+```
+      Entrance Lobby
+            |
+    Main Aquarium Hall
+       /            \
+Research Wing   Observation Tunnel
+    |
+Flooded Maintenance Corridor
+```
+
+Some areas require navigating through shallow water.
+
+---
+
+## Gameplay Focus
+
+The aquarium introduces:
+
+• environmental hazards from flooding  
+• limited visibility combat  
+• marine Rot organisms
+
+The player also discovers evidence linking marine samples to Halcyon research.
+
+---
+
+# 8. Hospital District Layout
+
+The hospital represents the town’s final attempt to treat infected victims.
+
+This district should feel oppressive and tense.
+
+---
+
+## Environmental Theme
+
+Abandoned medical facility.
+
+Features include:
+
+• emergency wards  
+• operating theaters  
+• quarantine zones  
+• damaged medical equipment
 
 Lighting is minimal and corridors are narrow.
 
 ---
 
-## Key Locations
+## Major Locations
 
-Important hospital areas include:
+Emergency Entrance
 
-• emergency entrance  
-• patient wards  
-• surgical theater  
-• quarantine wing  
-• hospital basement
+Primary entry point into the hospital.
+
+Patient Wards
+
+Rows of abandoned hospital beds.
+
+Surgical Theater
+
+Room containing surgical equipment and failed medical procedures.
+
+Quarantine Wing
+
+Area used to isolate infected individuals.
+
+Hospital Basement
+
+Storage rooms and pharmaceutical supplies.
 
 ---
 
 ## Layout Structure
 
-The hospital is divided into two floors and a basement.
+The hospital is divided into multiple floors.
 
-Ground Floor
+Example layout:
 
-Reception area and emergency rooms.
+```
+        Emergency Entrance
+                |
+            Reception Hall
+            /           \
+      Patient Wards   Surgical Theater
+            |
+    Quarantine Wing
+            |
+    Basement Storage
+```
 
-Upper Floor
 
-Patient wards and operating rooms.
-
-Basement
-
-Quarantine area and storage facilities.
+The basement contains puzzle elements tied to backup power systems.
 
 ---
 
 ## Gameplay Focus
 
-Hospital puzzles may include:
+Hospital gameplay emphasizes:
 
-• locating medical access cards  
-• restoring backup power  
-• unlocking quarantine doors
+• tense corridor exploration  
+• sudden enemy ambushes  
+• puzzle-based progression
 
----
-
-# 8. Forest Region Layout
-
-The forest acts as a transition between the town and the Halcyon facility.
-
-It introduces wildlife enemies and open terrain.
+The hospital also contains many narrative documents describing the outbreak.
 
 ---
 
-## Key Locations
+## Encounter Design
 
-Important forest areas include:
+Enemy types include:
 
-• ranger station  
-• hiking trails  
-• small observation tower  
-• abandoned campsite
+• Medical Rotters  
+• Collapsed Rotters  
+• Shadow Stalkers
 
----
+Major encounter:
 
-## Layout Structure
-
-Unlike the town districts, the forest uses natural pathways.
-
-Primary paths include:
-
-Main Trail
-
-Primary route through the forest.
-
-Side Trails
-
-Hidden paths leading to optional exploration areas.
-
-Clearing
-
-Open area where the Rot Stag mini-boss encounter occurs.
+Spliced Medical Mutation boss.
 
 ---
 
-## Environmental Features
+# 9. Forest Region Layout
 
-The forest contains:
+The Forest Region surrounds Blackwater Cove and forms the natural boundary of the playable map.
 
+This district introduces:
+
+• wildlife enemies  
+• larger open environments  
+• environmental hazards  
+• Rot ecological spread
+
+The forest acts as a transition between the urban environment and the Halcyon research facility.
+
+---
+
+## Environmental Theme
+
+Dense coastal forest.
+
+Features include:
+
+• steep terrain  
+• narrow hiking trails  
 • fallen trees blocking paths  
-• dense undergrowth limiting visibility  
-• Rot growth affecting wildlife
+• abandoned ranger outposts  
+• decaying logging infrastructure
 
-These elements create tension during exploration.
+Rot corruption spreads through:
 
----
-
-# 9. Halcyon Marine Research Center Layout
-
-The research center represents the most advanced human infrastructure in the game.
-
-The facility sits on cliffs overlooking the harbor.
+• tree root systems  
+• fungal growth structures  
+• spiral-shaped Rot formations in soil
 
 ---
 
-## Key Locations
+## Major Locations
 
-Important facility areas include:
+Forest Entrance Trail
 
-• reception area  
-• research laboratories  
-• containment chambers  
-• security control room  
-• underground access tunnels
+The first access point from the hospital district.
+
+Ranger Cabin
+
+Safe zone used by hikers and forest rangers before the outbreak.
+
+Observation Tower
+
+Elevated vantage point overlooking the town.
+
+Clearing Arena
+
+Open environment used for the Rot Stag mini-boss encounter.
+
+Collapsed Logging Route
+
+Blocked road leading toward the Halcyon research facility.
 
 ---
 
 ## Layout Structure
 
-The research center contains multiple levels.
+The forest uses natural pathways instead of urban road layouts.
 
-Surface Level
+Example structure:
 
-Public research areas and offices.
+```
+        Hospital Exit Trail
+                |
+            Forest Path
+            /           \
+    Ranger Cabin    Observation Tower
+        |
+    Clearing Arena
+        |
+Logging Route to Research Facility
+```
 
-Restricted Research Wing
-
-Containment labs and experimental chambers.
-
-Underground Section
-
-Access tunnels leading to the Rot convergence chamber.
+Hidden side trails provide optional exploration.
 
 ---
 
 ## Gameplay Focus
 
-Players uncover Halcyon’s research history through environmental storytelling.
+Forest gameplay emphasizes:
 
-This area contains many narrative documents.
+• reduced visibility  
+• unpredictable enemy attacks  
+• environmental hazards
 
----
-
-# 10. Rot Convergence Chamber Layout
-
-The Rot convergence chamber is the final area of the game.
-
-This location should feel completely alien compared to previous environments.
+Players begin encountering stronger enemies here.
 
 ---
 
-## Key Features
+## Encounter Design
 
-Environmental features include:
+Enemy types include:
 
-• massive Rot biomass structures  
-• organic tunnels  
-• pulsating biological walls  
-• Rot growth pillars
+• Rot Wolves  
+• Hunter Stalkers
+
+Mini-boss encounter:
+
+Rot Stag.
+
+The Rot Stag represents the infection of wildlife ecosystems.
+
+---
+
+# 10. Fishing Trawler Graveyard Layout
+
+The Fishing Trawler Graveyard is a coastal setpiece area.
+
+This location contains the wreckage of multiple fishing vessels that attempted to flee the harbor during the outbreak.
+
+The area creates a maze of ships, docks, and metal walkways.
+
+---
+
+## Environmental Theme
+
+Destroyed fishing fleet.
+
+Features include:
+
+• overturned vessels  
+• broken cranes  
+• rusted hull structures  
+• partially submerged ship interiors
+
+Rot growth merges with mechanical ship structures.
+
+---
+
+## Major Locations
+
+Broken Dockyard
+
+Initial access point from the harbor.
+
+Capsized Trawler
+
+Interior exploration area inside an overturned ship.
+
+Ship Bridge
+
+Elevated control deck used as a navigation point.
+
+Submerged Engine Room
+
+Flooded machinery chamber containing puzzle elements.
 
 ---
 
 ## Layout Structure
 
-The chamber consists of several connected caverns.
+The graveyard emphasizes vertical navigation.
+
+Example layout:
+
+
+Dockyard Entry
+|
+Capsized Trawler
+|
+Ship Deck Walkways
+/
+Bridge Tower Engine Room
+|
+Cliff Path to Research Facility
+
+
+Players traverse ship decks and ladders to navigate the area.
+
+---
+
+## Gameplay Focus
+
+Key gameplay elements include:
+
+• vertical traversal  
+• narrow combat spaces  
+• environmental hazards
+
+Hazards include:
+
+• unstable metal platforms  
+• electrified water  
+• collapsing walkways
+
+---
+
+## Encounter Design
+
+Enemy types include:
+
+• Harbor Rotters  
+• marine-infected Rot organisms
+
+Encounters often occur in tight spaces where mobility is limited.
+
+---
+
+# 11. Halcyon Marine Research Center Layout
+
+The Halcyon facility represents the most technologically advanced location in the game.
+
+This district reveals the truth behind Halcyon’s Rot research.
+
+---
+
+## Environmental Theme
+
+Modern marine research complex.
+
+Features include:
+
+• glass laboratory spaces  
+• containment chambers  
+• sterile research equipment  
+• underground laboratory corridors
+
+Rot growth spreads through laboratory systems and research chambers.
+
+---
+
+## Major Locations
+
+Reception Lobby
+
+Entry point into the research facility.
+
+Marine Research Labs
+
+Rooms used to analyze biological samples.
+
+Rot Containment Wing
+
+Laboratory chambers used to contain infected specimens.
+
+Security Control Room
+
+Safe zone used by Halcyon security personnel.
+
+Underground Research Elevator
+
+Access point to the final area beneath the facility.
+
+---
+
+## Layout Structure
+
+The research center uses multiple interior floors.
+
+Example structure:
+
+
+Reception Lobby
+|
+Research Labs
+/
+Containment Wing Security Control
+|
+Underground Elevator
+
+
+Players gradually uncover Halcyon’s research through documents and environmental storytelling.
+
+---
+
+## Gameplay Focus
+
+The facility introduces:
+
+• high Rot contamination zones  
+• advanced enemy variants  
+• complex puzzle systems
+
+This district also contains the largest number of narrative documents.
+
+---
+
+# 12. Rot Convergence Chamber Layout
+
+The Rot Convergence Chamber lies beneath the research facility.
+
+This location represents the **core biological structure of the Rot ecosystem**.
+
+---
+
+## Environmental Theme
+
+Ancient subterranean Rot biome.
+
+Features include:
+
+• organic cavern systems  
+• spiral-shaped Rot structures embedded in stone  
+• pulsating biological growth walls  
+• Rot tendrils connecting chambers
+
+The environment appears partially ancient and partially biological.
+
+This suggests that the Rot existed beneath the region long before Halcyon discovered it.
+
+---
+
+## Major Locations
 
 Entry Tunnel
 
-Connects the research center to the cavern system.
+Connection between the research facility and the cavern system.
 
-Outer Cavern
+Outer Rot Cavern
 
-Large open space containing Rot growth formations.
+Large chamber filled with biological growth.
 
-Central Chamber
+Central Convergence Chamber
 
-Location of the final boss encounter with Dr Victor Soren.
+Final arena where the Rot network is strongest.
 
 ---
 
-# 11. Shortcut System
+## Layout Structure
 
-Shortcuts are critical for improving navigation.
+Example structure:
+
+
+Research Elevator Exit
+|
+Entry Tunnel
+|
+Outer Rot Cavern
+|
+Central Convergence Chamber
+
+
+The central chamber serves as the final boss arena.
+
+---
+
+## Final Encounter
+
+Dr Victor Soren
+
+Soren merged with the Rot in an attempt to understand its structure.
+
+The boss encounter uses:
+
+• multiple combat phases  
+• environmental hazards  
+• Rot node destruction mechanics
+
+---
+
+# 13. Encounter Density Scaling
+
+Enemy encounters increase in difficulty as the player progresses through districts.
+
+Example scaling:
+
+Early Game
+
+• small enemy groups  
+• basic Rotters
+
+Mid Game
+
+• mixed enemy types  
+• Stalker encounters
+
+Late Game
+
+• advanced mutations  
+• large multi-enemy encounters
+
+Boss encounters appear at major narrative milestones.
+
+---
+
+# 14. District Difficulty Progression
+
+Each district represents a step in gameplay escalation.
+
+Progression order:
+
+Residential District  
+Downtown District  
+Emergency Coordination Center  
+Harbor District  
+Rot Aquarium  
+Hospital District  
+Forest Region  
+Fishing Trawler Graveyard  
+Halcyon Research Center  
+Rot Convergence Chamber
+
+This progression gradually increases:
+
+• enemy difficulty  
+• environmental corruption  
+• puzzle complexity
+
+---
+
+# 15. Level Design Goals
+
+District layouts should achieve the following design goals.
+
+---
+
+## Believable Environments
+
+Each district must feel like a real place with logical architecture.
+
+---
+
+## Exploration Incentives
+
+Players should be rewarded for thorough exploration through:
+
+• hidden resources  
+• lore documents  
+• shortcut routes
+
+---
+
+## Environmental Storytelling
+
+The environment should communicate the story without relying heavily on cutscenes.
 
 Examples include:
 
-• unlocked gates connecting districts  
-• collapsed walls opening new routes  
-• ladders linking rooftops
-
-Once opened, shortcuts remain permanently available.
-
-This allows players to move quickly between areas.
+• abandoned evacuation attempts  
+• failed medical treatment areas  
+• destroyed harbor infrastructure
 
 ---
 
-# 12. Encounter Zones
+## Escalating Horror
 
-Each district should contain designated encounter areas.
+The world should gradually transition from a recognizable town to a biological ecosystem dominated by the Rot.
 
-Examples include:
-
-• narrow corridors for ambush enemies  
-• open plazas for multi-enemy encounters  
-• boss arenas for large encounters
-
-Encounter zones should feel natural within the environment.
-
----
-
-# 13. Layout Design Goals
-
-District layouts must support the following gameplay goals:
-
-• exploration-driven navigation  
-• meaningful environmental storytelling  
-• varied combat encounters  
-• clear navigation landmarks
-
-The player should feel like they are exploring a believable town gradually transforming into a biological ecosystem.
+Players should feel that the environment itself is slowly transforming around them.
 
 ---

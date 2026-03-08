@@ -315,7 +315,7 @@ If the vertical slice is successful, development can safely proceed to larger di
 Once the vertical slice is complete, development can expand the world to include:
 
 - Downtown District
-- Police Station
+- Emergency Center
 - Harbor District
 - Hospital
 - Forest Region

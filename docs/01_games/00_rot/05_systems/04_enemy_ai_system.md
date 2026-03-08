@@ -558,3 +558,182 @@ enemy territorial control systems
 The modular state-based architecture ensures these features can be added without rewriting the entire AI system.
 
 ---
+
+## 24. Rot Exposure Interaction
+
+Enemy organisms may react to the player’s **Rot Exposure level**.
+
+As the player becomes more contaminated, certain enemies behave differently.
+
+Possible effects include:
+
+Heightened Aggression
+
+Some organisms become more aggressive toward highly contaminated targets.
+
+This behavior may occur because infected organisms recognize Rot signals.
+
+---
+
+Predator Attraction
+
+Certain predators are attracted to Rot contamination.
+
+High exposure may increase the likelihood of enemies tracking the player.
+
+Examples include:
+
+- Hunter Stalkers
+- Rot Wolves
+
+These enemies may detect the player at slightly longer ranges when exposure is high.
+
+---
+
+Hallucination Triggers
+
+Severe exposure may cause the player to experience hallucinations.
+
+Some hallucinations may temporarily simulate enemy presence.
+
+These hallucinations do not affect enemy AI directly, but they increase psychological tension.
+
+---
+
+## 25. Rot Ecosystem Awareness
+
+Enemies are partially influenced by nearby Rot growth structures.
+
+This creates the impression that the Rot ecosystem functions as a **distributed biological network**.
+
+Examples include:
+
+Rot Node Signals
+
+Enemies located near large Rot growth structures may respond more aggressively to disturbances.
+
+Rot nodes may also amplify detection ranges for nearby enemies.
+
+---
+
+Convergence Behavior
+
+In heavily infected zones, enemies may gradually move toward large Rot biomass structures.
+
+This behavior creates natural enemy clustering in high infection areas.
+
+---
+
+Dormant Organisms
+
+Some infected organisms remain dormant until Rot growth nearby becomes active.
+
+This behavior may occur in:
+
+- underground areas
+- dense Rot biomass zones
+- laboratory containment chambers
+
+---
+
+## 26. Predator Behavior Types
+
+Certain enemies behave as specialized predators.
+
+These enemies use more advanced hunting logic than standard infected creatures.
+
+---
+
+### Stalker-Type Behavior
+
+Stalkers prioritize stealth and ambush tactics.
+
+Typical behavior includes:
+
+- observing the player from a distance
+- retreating into darkness
+- attacking when the player is vulnerable
+
+Stalkers rarely charge directly unless they are confident they can kill the player.
+
+---
+
+### Hunter Behavior
+
+Hunter-type predators track the player across larger areas.
+
+Examples include:
+
+- Rot Wolves
+- Hunter Stalkers
+
+These enemies may:
+
+- follow scent or Rot signals
+- circle the player
+- attack in bursts rather than constant pursuit
+
+---
+
+## 27. Territory Systems
+
+Certain enemies defend specific locations.
+
+Territorial behavior may occur around:
+
+- Rot biomass growths
+- nesting areas
+- food sources
+- laboratory containment zones
+
+Territorial enemies are more aggressive when the player enters their domain.
+
+---
+
+## 28. Fear Response (Optional Behavior)
+
+Some weaker infected creatures may display fear responses when heavily damaged.
+
+Examples include:
+
+- retreating briefly
+- stumbling away from the player
+- regrouping with nearby enemies
+
+This behavior reinforces the idea that infected creatures are still partially biological.
+
+---
+
+## 29. AI Escalation Zones
+
+Certain areas of the map act as **AI escalation zones**.
+
+Examples include:
+
+- Rot Convergence Chamber
+- heavily infected laboratory areas
+- underground Rot tunnels
+
+In these zones:
+
+- enemy detection ranges may increase
+- enemies may appear more frequently
+- predators may spawn dynamically
+
+This reinforces the sense that the player is entering the **heart of the Rot ecosystem**.
+
+---
+
+## 30. Design Goals for Enemy AI
+
+The Enemy AI System aims to create encounters that feel:
+
+- tense
+- unpredictable
+- biologically believable
+
+Enemies should feel like organisms reacting to their environment rather than scripted obstacles.
+
+The player should never feel completely safe while exploring the infected world of ROT.
+
+---

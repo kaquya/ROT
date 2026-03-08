@@ -559,3 +559,190 @@ dynamic weather audio effects
 The audio architecture must remain modular to support future improvements.
 
 ---
+
+## 22. Rot Exposure Audio Effects
+
+The Rot Exposure System influences the player's auditory perception.
+
+As exposure increases, the player may experience **audio distortion and hallucinations**.
+
+These effects reinforce the psychological horror of infection.
+
+---
+
+### Low Exposure
+
+At low contamination levels the player hears subtle environmental distortions.
+
+Examples include:
+
+- faint whisper-like tones
+- subtle low-frequency vibrations
+- distant biological movement sounds
+
+These sounds may occur intermittently and are difficult to localize.
+
+---
+
+### Moderate Exposure
+
+Moderate exposure introduces more noticeable audio anomalies.
+
+Examples include:
+
+- distant voices or echoes
+- distorted ambient audio
+- brief phantom enemy sounds
+
+These hallucinated sounds do not correspond to real enemies.
+
+The purpose is to create uncertainty for the player.
+
+---
+
+### High Exposure
+
+Severe contamination significantly distorts the player's perception.
+
+Possible effects include:
+
+- reversed audio fragments
+- heartbeat amplification
+- organic pulsation sounds
+- phantom enemy footsteps
+
+At extreme levels the player may struggle to distinguish real threats from hallucinations.
+
+This reinforces the danger of uncontrolled Rot contamination.
+
+---
+
+## 23. Rot Network Audio
+
+Large Rot growth structures produce unique audio signals.
+
+These sounds reinforce the idea that the Rot functions as a **distributed biological network**.
+
+Examples include:
+
+- deep organic vibrations
+- rhythmic pulsation sounds
+- low-frequency biological resonance
+
+These sounds may become stronger near:
+
+- Rot nodes
+- biomass clusters
+- convergence zones
+- underground Rot chambers
+
+Rot network audio helps players identify heavily infected areas before encountering enemies.
+
+---
+
+## 24. Stealth Feedback Audio
+
+Audio cues help players understand their stealth status.
+
+Subtle sound effects indicate whether the player is being detected.
+
+Examples include:
+
+Player Noise Feedback
+
+Certain player actions produce louder sounds.
+
+Examples include:
+
+- sprinting footsteps
+- weapon impacts
+- environmental interaction noise
+
+These sounds may alert nearby enemies.
+
+---
+
+Enemy Suspicion Audio
+
+When enemies become suspicious, subtle audio cues may occur.
+
+Examples include:
+
+- distant creature vocalizations
+- sudden silence in ambient sound
+- faint movement sounds nearby
+
+These cues warn the player that enemies may be investigating.
+
+---
+
+Enemy Detection Audio
+
+When an enemy fully detects the player, the audio system may trigger:
+
+- aggressive enemy vocalizations
+- combat music activation
+- environmental tension sounds
+
+These cues signal the transition into combat.
+
+---
+
+## 25. Rot Growth Environmental Audio
+
+Rot structures should feel biologically active.
+
+Large Rot growths produce ambient sounds.
+
+Examples include:
+
+- tissue stretching
+- wet organic movement
+- internal biological cracking
+- fluid-like movement through organic tubes
+
+These sounds should vary based on infection intensity.
+
+Early growths produce subtle sounds.
+
+Large Rot structures produce dominant environmental audio.
+
+---
+
+## 26. Psychological Silence
+
+Silence can be used intentionally to create tension.
+
+In certain environments:
+
+- ambient audio may temporarily disappear
+- background noise may fade completely
+
+This silence often occurs before:
+
+- ambush encounters
+- boss appearances
+- major environmental events
+
+The sudden absence of sound increases player tension.
+
+---
+
+## 27. Audio Design Goals
+
+The Audio System should achieve several goals:
+
+- reinforce the biological horror atmosphere
+- provide gameplay awareness cues
+- support stealth mechanics
+- communicate environmental danger
+
+Sound should never feel decorative.
+
+Every audio element should either:
+
+- enhance atmosphere
+- communicate gameplay information
+- reinforce the presence of the Rot ecosystem.
+
+---

@@ -479,3 +479,168 @@ These records suggest that the Blackwater outbreak may not have been the only Ro
 Further investigations remain ongoing.
 
 ---
+
+# 21. Internal Ideological Conflict
+
+Archive ID: HAL-INT-233
+
+Recovered correspondence between senior Halcyon researchers suggests that the organization was divided over the long-term implications of Rot research.
+
+Two ideological groups gradually formed within the Halcyon Initiative.
+
+---
+
+## Containment Advocates
+
+This faction believed the Rot represented a catastrophic biological threat.
+
+Their position was that the organism must be strictly contained or destroyed.
+
+Their concerns included:
+
+- uncontrolled ecological transformation
+- neurological effects on infected organisms
+- inability to predict long-term ecosystem behavior
+
+Several researchers within the containment division argued that continued experimentation would eventually trigger a large-scale outbreak.
+
+Internal memos from this group repeatedly recommended terminating the Project Helix program.
+
+---
+
+## Reconstructionists
+
+The Reconstructionists believed the Rot represented an entirely new biological paradigm.
+
+They argued that the organism was not destructive, but **reconstructive**.
+
+Their theory suggested that the Rot was capable of reorganizing biological matter into more efficient ecological structures.
+
+According to this interpretation:
+
+- the Rot was not a parasite
+- the Rot was an ecological system
+- human biology was simply incompatible with the reconstruction process
+
+Reconstructionists believed that controlled integration with the Rot could produce a new stage of biological evolution.
+
+Dr. Victor Soren was one of the most influential proponents of this theory.
+
+---
+
+# 22. Project Helix Escalation
+
+Archive ID: HAL-PRJ-241
+
+As ideological divisions deepened within Halcyon, Project Helix entered a more aggressive research phase.
+
+Objectives included:
+
+- mapping large-scale Rot growth networks
+- identifying communication pathways within Rot biomass
+- testing partial biological integration with human subjects
+
+Several experimental facilities were expanded beneath the Blackwater research center.
+
+These underground chambers allowed researchers to cultivate larger Rot growth structures.
+
+Security staff expressed concern that these structures were expanding faster than expected.
+
+---
+
+# 23. Rot Structural Mapping
+
+Archive ID: HAL-BIO-252
+
+Research teams attempted to map the internal architecture of Rot ecosystems.
+
+Initial observations suggested that Rot growth did not occur randomly.
+
+Instead, Rot structures formed **repeating geometric patterns**, often spirals or branching lattice formations.
+
+These patterns appeared in:
+
+- marine Rot colonies
+- infected plant ecosystems
+- laboratory cultures
+
+Researchers began referring to this phenomenon as **Rot Structural Convergence**.
+
+Some scientists hypothesized that the organism might be forming a distributed biological network.
+
+---
+
+# 24. Deep Trench Survey
+
+Archive ID: HAL-EXP-264
+
+Following the discovery of large Rot formations beneath Blackwater Cove, Halcyon launched additional deep ocean expeditions.
+
+Submersible probes discovered unusual biological structures embedded within trench rock formations.
+
+These structures appeared extremely old.
+
+Analysis suggested they may have existed **long before human contact**.
+
+The Rot may not have originated from Halcyon research.
+
+Instead, Halcyon may have simply **awakened an existing ecosystem**.
+
+---
+
+# 25. Prehistoric Rot Structures
+
+Archive ID: HAL-BIO-278
+
+Geological surveys near several trench formations identified fossilized structures resembling modern Rot growth patterns.
+
+These formations appeared embedded within ancient rock layers.
+
+Possible interpretations include:
+
+- prehistoric Rot ecosystems
+- extinct biological organisms related to the Rot
+- geological formations mimicking Rot structures
+
+The age of these formations remains uncertain.
+
+If confirmed, this discovery would imply that the Rot existed on Earth **for millions of years**.
+
+---
+
+# 26. Soren's Final Hypothesis
+
+Archive ID: HAL-PER-301
+
+The final recovered notes attributed to Dr. Victor Soren contain a series of fragmented theories.
+
+One entry reads:
+
+> "We assumed the organism was spreading.  
+> That assumption may have been incorrect.  
+>  
+> It may not be spreading.  
+>  
+> It may be **awakening**."
+
+Soren theorized that Halcyon's research may have simply triggered the expansion of a dormant Rot ecosystem beneath the region.
+
+If correct, Blackwater Cove may represent only a **localized emergence point** within a much larger biological network.
+
+---
+
+# 27. Archive Status
+
+Many Halcyon internal records were lost following the Blackwater containment failure.
+
+Remaining archives contain:
+
+- incomplete research logs
+- damaged data storage devices
+- partially erased documents
+
+Several references indicate that Halcyon operated **additional research facilities in undisclosed locations**.
+
+The full scale of the Rot research program remains unknown.
+
+---

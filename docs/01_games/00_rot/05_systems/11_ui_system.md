@@ -556,3 +556,176 @@ advanced accessibility settings
 The UI framework must remain modular to support these additions.
 
 ---
+
+## 22. Rot Exposure Interface
+
+The Rot Exposure System requires subtle UI feedback to communicate contamination levels.
+
+The UI must avoid explicit numerical indicators to preserve immersion.
+
+Possible presentation methods include:
+
+Visual Distortion
+
+Screen effects may indicate increasing contamination.
+
+Examples:
+
+- subtle screen warping
+- color desaturation
+- visual noise
+- biological vein-like overlays
+
+These effects gradually intensify as exposure increases.
+
+---
+
+Heartbeat Indicator
+
+A faint heartbeat audio or visual pulse may occur during high exposure.
+
+This reinforces the sense that the player's body is being affected by the Rot.
+
+---
+
+Rot Pulse Indicator
+
+In highly contaminated environments, the UI may display subtle environmental pulsation effects tied to Rot growth nearby.
+
+These effects should feel environmental rather than purely interface-based.
+
+---
+
+## 23. Stealth Awareness Indicators
+
+Stealth gameplay requires subtle feedback for player awareness.
+
+The UI should avoid explicit stealth meters but may provide indirect indicators.
+
+Examples include:
+
+Enemy Awareness Feedback
+
+When enemies become suspicious, subtle indicators may appear such as:
+
+- faint directional markers
+- audio cues
+- brief UI pulse effects
+
+These indicators warn the player without revealing exact enemy positions.
+
+---
+
+Detection State Feedback
+
+If the player is detected, the UI may briefly display a visual cue.
+
+Examples include:
+
+- screen edge flash
+- audio sting
+- brief HUD highlight
+
+These cues transition the player into combat awareness.
+
+---
+
+## 24. Archive / Collectibles Interface
+
+The Archive Interface allows players to review collected narrative documents.
+
+The archive system is accessible through the pause menu.
+
+Archive categories include:
+
+Civilian Records  
+Emergency Communications  
+Halcyon Research Logs  
+Researcher Journals  
+Environmental Observations  
+
+Each document should display:
+
+- document title
+- location where it was discovered
+- full readable text
+
+The archive system supports narrative exploration for players interested in the deeper lore of ROT.
+
+---
+
+## 25. Minimal HUD Mode
+
+ROT may support a **minimal HUD mode**.
+
+In this mode:
+
+- health indicators appear only after damage
+- ammo count appears only when aiming
+- interaction prompts appear only when necessary
+
+This mode increases immersion for players who prefer minimal interface elements.
+
+---
+
+## 26. Environmental UI Integration
+
+Some UI elements may be presented through the game world rather than traditional overlays.
+
+Examples include:
+
+Physical Maps
+
+Players may interact with physical maps placed in safe zones.
+
+Research Terminals
+
+Halcyon computers may display data logs through in-world screens.
+
+Radio Communications
+
+Emergency broadcasts may appear as diegetic audio rather than UI text.
+
+This design reinforces immersion in the world.
+
+---
+
+## 27. Contamination Screen Effects
+
+The UI system may apply screen effects during certain gameplay conditions.
+
+Examples include:
+
+Low Health
+
+- slight vignette
+- red color tint
+
+Rot Exposure
+
+- biological distortion
+- environmental noise
+
+Severe Injury
+
+- blurred vision
+- slowed UI animations
+
+These effects communicate player condition without relying on explicit UI elements.
+
+---
+
+## 28. Design Goals for UI
+
+The UI System must support several goals.
+
+- maintain immersion within the horror atmosphere
+- communicate essential gameplay information
+- remain minimal and unobtrusive
+- integrate naturally with the game world
+
+Players should feel immersed in the environment rather than interacting with a traditional interface.
+
+The UI should support gameplay while remaining mostly invisible during exploration.
+
+---

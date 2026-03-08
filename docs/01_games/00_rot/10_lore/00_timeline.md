@@ -2,251 +2,298 @@
 
 This document tracks the chronological history of the ROT universe.
 
-The timeline includes known historical events, the emergence of the Rot phenomenon, the formation of the Halcyon Initiative, and the events leading up to the Blackwater Cove incident.
+The timeline describes the discovery of the Rot organism, the rise of Halcyon research, and the catastrophic events that led to the Blackwater Cove outbreak.
 
-Some sections intentionally contain incomplete or speculative information.  
-The true origin of the Rot remains partially unknown.
+Many sections contain incomplete or conflicting information.
+
+Much of the surviving data comes from damaged Halcyon archives and fragmented eyewitness accounts.
+
+The true origin of the Rot remains uncertain.
 
 ---
 
 # 1. Prehistoric Period
 
-Very little is known about the earliest presence of the Rot.
+Geological evidence suggests that Rot-like biological structures may have existed deep beneath oceanic trench systems for millions of years.
 
-Geological evidence suggests that Rot-like biological structures may have existed deep beneath oceanic trenches for millions of years.
+These formations appear embedded within ancient rock layers and resemble modern Rot growth structures.
 
-These organisms appear to form extremely slow-growing biological networks embedded within rock formations.
+Observed characteristics include:
 
-Unknown characteristics include:
-
-- extreme biological resilience
+- spiral-shaped biological formations
+- extremely slow organic growth
 - unusual regenerative properties
-- adaptive mutation behaviour
+- resistance to extreme environmental conditions
 
-It is unclear whether these formations were ever exposed to surface ecosystems prior to modern human activity.
+Some researchers believe the Rot may represent a **deep biosphere organism**, adapted to extreme ocean trench environments.
+
+If this theory is correct, the Rot may have existed long before human civilization.
 
 ---
 
-# 2. Early Human Contact (Unconfirmed)
+# 2. Possible Ancient Encounters
 
-Some historians speculate that ancient coastal cultures may have encountered Rot-related biological material.
+Some historians speculate that ancient coastal cultures may have encountered Rot-related material.
 
-Possible evidence includes:
+Possible references include:
 
-- mythological references to “living stone”
-- descriptions of diseased wildlife near deep coastal caves
-- legends of coastal forests that consumed entire settlements
+- myths describing “living stone beneath the sea”
+- legends of forests that consumed entire settlements
+- reports of diseased wildlife near coastal cave systems
 
-No confirmed scientific documentation exists from this period.
+No confirmed scientific documentation exists.
 
-These accounts may represent early contact with dormant Rot ecosystems.
+These stories may represent encounters with dormant Rot ecosystems exposed through geological activity.
 
 ---
 
-# 3. Modern Oceanic Exploration
+# 3. Modern Deep Ocean Exploration
 
-Late 20th century advances in deep ocean exploration allowed researchers to investigate previously unreachable trench environments.
+Late 20th century advancements in deep ocean exploration allowed scientists to investigate previously unreachable trench ecosystems.
 
-During these expeditions, unusual biological samples were recovered.
+During these expeditions, several research teams recovered unusual biological samples.
 
-Characteristics included:
+These samples displayed characteristics unlike known organisms:
 
-- cellular structures not matching known organisms
-- extreme tolerance to pressure and temperature
-- unusual regenerative properties
+- irregular cellular structures
+- unusual regenerative behavior
+- rapid adaptation to environmental conditions
 
-These samples would later become the foundation of Rot research.
+Some samples appeared embedded within rock formations.
+
+These discoveries would later become the foundation of Rot research.
 
 ---
 
 # 4. Formation of the Halcyon Initiative
 
-Approximately 20 years before the Blackwater Cove outbreak, a private scientific organization known as the **Halcyon Initiative** was established.
+Approximately twenty years before the Blackwater outbreak, a private research organization known as the **Halcyon Initiative** was formed.
 
-Halcyon publicly presented itself as a marine research organization focused on environmental protection and biological discovery.
+Halcyon publicly presented itself as a marine research organization dedicated to environmental protection and biological discovery.
 
-Privately, Halcyon began investigating anomalous biological samples recovered from deep ocean expeditions.
+Privately, the organization began investigating anomalous biological samples recovered from deep ocean expeditions.
 
 The organization operated with:
 
-- large private funding sources
-- limited government oversight
-- global research facilities
+- significant private funding
+- limited governmental oversight
+- multiple international research partners
 
-The Rot organism quickly became the central focus of Halcyon research.
+Very early in its research programs, Halcyon began focusing almost exclusively on the Rot organism.
 
 ---
 
 # 5. Early Rot Research
 
-Initial laboratory analysis revealed several alarming properties.
+Initial laboratory analysis revealed extraordinary biological properties.
 
-The Rot was capable of:
+The Rot appeared capable of:
 
 - integrating with organic tissue
-- accelerating biological mutation
-- adapting rapidly to environmental conditions
+- accelerating biological regeneration
+- restructuring cellular growth patterns
 
-Researchers initially believed the organism could revolutionize several scientific fields.
-
-Potential applications included:
+Some researchers believed the organism could revolutionize fields such as:
 
 - regenerative medicine
 - environmental restoration
-- biological engineering
+- bioengineering
 
-Early experiments focused on studying Rot growth patterns in controlled environments.
+Early experiments appeared stable and promising.
 
-These experiments appeared stable at first.
+However, long-term studies began revealing unpredictable mutation patterns.
 
 ---
 
 # 6. Escalation of Halcyon Experiments
 
-As research continued, Halcyon expanded its experiments.
+As research progressed, Halcyon expanded its experimental programs.
 
-New projects explored the interaction between Rot material and living organisms.
+Projects began exploring the interaction between Rot material and living organisms.
 
 These experiments included:
 
-- animal exposure studies
-- biological regeneration testing
-- mutation analysis
+- plant exposure trials
+- animal mutation studies
+- controlled biological integration experiments
 
-Results were inconsistent.
+Results varied widely.
 
-Some organisms showed accelerated healing.
+Some subjects displayed accelerated healing.
 
-Others displayed severe mutation and aggressive behaviour.
+Others experienced violent mutation and neurological collapse.
 
-Despite the risks, Halcyon continued its research programs.
+Despite growing risks, Halcyon leadership continued expanding the research program.
 
 ---
 
-# 7. Establishment of Blackwater Cove Facility
+# 7. The Halcyon Ideological Divide
+
+As experiments escalated, Halcyon researchers became divided.
+
+Two factions gradually formed within the organization.
+
+**Containment Advocates**
+
+This group believed the Rot represented an existential biological threat.
+
+They argued that the organism should be strictly contained or destroyed.
+
+**Reconstructionists**
+
+This faction believed the Rot represented a revolutionary biological system.
+
+They theorized that the Rot was capable of reconstructing ecosystems rather than destroying them.
+
+Dr. Victor Soren became one of the leading voices within the Reconstructionist faction.
+
+These disagreements intensified as research progressed.
+
+---
+
+# 8. Establishment of the Blackwater Cove Facility
 
 Halcyon constructed a marine research facility near the small coastal town of **Blackwater Cove**.
 
-The location was chosen due to:
+The location was chosen for several reasons:
 
-- proximity to deep ocean trench systems
+- proximity to deep ocean trench formations
 - low population density
-- existing fishing infrastructure
+- access to fishing infrastructure
+- natural geographic isolation
 
-The facility allowed Halcyon to conduct long-term marine sampling operations.
+Publicly, the facility was described as a marine biodiversity research center.
 
-Local residents were largely unaware of the true purpose of the research center.
+Privately, it became one of Halcyon’s primary Rot research laboratories.
 
 ---
 
-# 8. Pre-Outbreak Anomalies
+# 9. Project Helix
 
-In the years leading up to the outbreak, several unusual events were reported in the Blackwater region.
+Several years after the facility opened, Halcyon launched **Project Helix**.
 
-These included:
+This project attempted to understand the structural behavior of Rot ecosystems.
 
-- increased wildlife aggression
+Research objectives included:
+
+- mapping Rot growth networks
+- studying spiral growth formations
+- testing biological integration with living organisms
+
+Project Helix also involved constructing underground research chambers beneath the Blackwater facility.
+
+These chambers allowed scientists to cultivate larger Rot growth structures.
+
+---
+
+# 10. Environmental Instability
+
+In the years leading up to the outbreak, unusual environmental changes began appearing around Blackwater Cove.
+
+Reported incidents included:
+
+- aggressive wildlife behavior
 - unexplained marine organism deaths
-- abnormal fungal growth in coastal forests
+- abnormal fungal growth in nearby forests
 - missing fishing vessels
 
-Local authorities dismissed most incidents as environmental changes or natural disasters.
-
-Halcyon internal records suggest the organization was aware of escalating biological instability.
+Halcyon internal documents suggest that Rot containment within the research facility was becoming increasingly unstable.
 
 ---
 
-# 9. Discovery of Rot Samples in Fishing Nets
+# 11. Discovery of Rot Samples in Fishing Nets
 
-Shortly before the outbreak, fishermen began recovering unusual biological material in their nets.
+Shortly before the outbreak, local fishermen began discovering unusual biological material in their nets.
 
-The material appeared similar to organic tissue but continued growing even after removal from water.
+The material resembled living tissue and continued growing even after removal from water.
 
-One of the individuals who examined these samples was **Daniel Voss**, a harbor mechanic in Blackwater Cove.
+One individual who examined these samples was **Daniel Voss**, a harbor mechanic in Blackwater Cove.
 
-Daniel reportedly attempted to contact local authorities about the discovery.
+Daniel attempted to report the discovery to local authorities.
 
-Shortly after this discovery, the Rot outbreak began.
+Shortly after this event, Rot contamination began spreading within the harbor district.
 
 ---
 
-# 10. Blackwater Cove Outbreak
+# 12. Blackwater Cove Outbreak
 
-The first confirmed outbreak occurred within the Blackwater Cove harbor district.
+The first confirmed outbreak occurred in the harbor area.
 
-Early infection symptoms included:
+Initial symptoms included:
 
 - disorientation
-- aggressive behaviour
+- aggressive behavior
 - severe biological mutation
 
-Local emergency services were quickly overwhelmed.
+Within hours, multiple residents began exhibiting infection symptoms.
 
-Authorities established a quarantine zone around the town.
+Local emergency services quickly became overwhelmed.
 
-Communication with the outside world became increasingly restricted.
+Authorities attempted to establish quarantine zones around the town.
+
+Communication with the outside world became restricted.
 
 ---
 
-# 11. Quarantine Collapse
+# 13. Quarantine Collapse
 
-Despite containment attempts, the outbreak spread rapidly.
+Despite containment attempts, the infection spread rapidly.
 
 Military units attempted to establish evacuation checkpoints.
 
-These efforts failed as the Rot continued to spread through:
+These efforts failed as the Rot spread through:
 
 - infected civilians
-- wildlife
-- environmental structures
+- contaminated wildlife
+- environmental biomass growth
 
-Within days, large sections of the town were abandoned.
+Within days, most of the town had been abandoned.
 
-Blackwater Cove effectively became a sealed outbreak zone.
-
----
-
-# 12. Events of ROT (Game 1)
-
-The events of the first game take place shortly after the quarantine collapse.
-
-Elena Voss returns to Blackwater Cove after receiving a distress message from her brother Daniel.
-
-During her investigation she uncovers:
-
-- evidence of Halcyon experiments
-- the connection between Rot samples and the harbor
-- the existence of an underground research facility beneath the town
-
-Her journey leads her deeper into the source of the outbreak.
+Blackwater Cove became a sealed outbreak zone.
 
 ---
 
-# 13. Aftermath of the Blackwater Incident
+# 14. Events of ROT (Game 1)
+
+The events of ROT take place shortly after the quarantine collapse.
+
+Elena Voss returns to Blackwater Cove after receiving a fragmented distress message from her brother Daniel.
+
+While searching the town, she discovers:
+
+- evidence of Halcyon research programs
+- the connection between marine Rot samples and the outbreak
+- underground research facilities beneath the Halcyon laboratory
+
+Her investigation leads her toward the Rot convergence chamber beneath the research facility.
+
+---
+
+# 15. Aftermath of the Blackwater Incident
 
 The long-term consequences of the Blackwater outbreak remain uncertain.
 
-Some reports indicate that Rot contamination may have spread beyond the region.
+Some reports suggest that Rot contamination may have spread beyond the region.
 
 Possible signs include:
 
-- unusual biological events in other coastal areas
-- unexplained disappearances near deep ocean research zones
-- sealed research archives related to Halcyon activity
+- unexplained biological events near other coastal regions
+- sealed Halcyon research archives
+- missing oceanic research vessels
 
-The Rot phenomenon may not be limited to a single location.
-
-Future outbreaks may occur in other parts of the world.
+These events suggest that Blackwater Cove may not have been the only Rot incident.
 
 ---
 
-# 14. Future Events (Franchise Direction)
+# 16. Future Events (Franchise Direction)
 
-Later entries in the ROT franchise may explore:
+Future ROT entries may explore:
 
-- additional outbreak zones
+- additional Rot outbreak zones
 - deeper Halcyon research programs
-- the true origin of the Rot organism
-- global consequences of Rot contamination
+- prehistoric Rot ecosystems
+- the possibility that the Rot network extends across multiple ocean trench systems
 
-The Blackwater Cove incident represents only the beginning of a much larger mystery.
+The Blackwater Cove incident may represent only the **first known emergence of a much larger biological system**.
+
+---

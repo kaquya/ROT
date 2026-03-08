@@ -1,13 +1,13 @@
 # ROT – World Map
 
-Version: 1.0  
+Version: 1.1  
 Status: World Design
 
 ---
 
 # 1. Purpose of This Document
 
-This document defines the spatial structure of **Blackwater Cove**, the primary environment of ROT.
+This document defines the **spatial structure of Blackwater Cove**, the primary environment of ROT.
 
 It describes:
 
@@ -15,49 +15,110 @@ It describes:
 • district connections  
 • exploration flow  
 • environmental landmarks  
+• setpiece locations  
 • player navigation structure  
 
-The goal is to ensure that the world feels like a **coherent physical place rather than a collection of levels**.
+The goal is to ensure the world feels like a **coherent physical place rather than a collection of disconnected levels**.
+
+Blackwater Cove should feel like a **real coastal town gradually consumed by a biological ecosystem**.
 
 ---
 
 # 2. Blackwater Cove Overview
 
-Blackwater Cove is a small coastal town located along a rugged northern shoreline.
+Blackwater Cove is a small coastal settlement located along a rugged northern shoreline.
 
-The town is surrounded by natural barriers that contribute to its isolation.
+The town developed around a natural harbor that supported fishing fleets and marine industries.
 
-Geographic features include:
+The surrounding geography isolates the town from larger urban areas.
+
+Natural boundaries include:
 
 • steep coastal cliffs  
 • dense evergreen forest  
 • rocky shoreline  
+• unstable coastal roads  
 • deep ocean trench systems offshore
 
-These natural boundaries help explain why the Rot outbreak initially remained contained within the town.
+These geographical features explain why the Rot outbreak initially remained contained within the region.
+
+The town can only be accessed through a limited number of roads, most of which collapse or become blocked early in the outbreak.
 
 ---
 
-# 3. Town Structure
+# 3. Geographic Regions
 
-Blackwater Cove developed organically over decades as a maritime fishing community.
+The Blackwater Cove region can be divided into three major environmental zones.
 
-Unlike modern cities with grid layouts, the town contains:
+---
+
+## Coastal Zone
+
+This includes:
+
+• the harbor  
+• fishing infrastructure  
+• marine research facilities  
+• lighthouse cliffs  
+• shipwreck coastline
+
+The Rot spreads rapidly here due to contaminated marine organisms.
+
+---
+
+## Urban Zone
+
+The main town center.
+
+Includes:
+
+• residential neighborhoods  
+• commercial downtown areas  
+• municipal buildings  
+• emergency response infrastructure
+
+This zone represents the **initial outbreak area**.
+
+---
+
+## Forest Zone
+
+The wooded hills surrounding the town.
+
+Includes:
+
+• hiking trails  
+• ranger outposts  
+• abandoned logging routes
+
+The forest becomes increasingly corrupted by the Rot ecosystem later in the game.
+
+---
+
+# 4. Town Structure
+
+Blackwater Cove developed organically over many decades as a maritime fishing community.
+
+Unlike modern planned cities, the town has an irregular structure.
+
+Characteristics include:
 
 • narrow roads  
 • irregular building placement  
 • interconnected alleys  
-• overlapping infrastructure
+• layered infrastructure built over older foundations
 
-This irregular layout supports exploration and reinforces the sense of a real town.
+This irregular layout supports exploration and reinforces the feeling of a real place.
+
+Players gradually become familiar with the town’s geography through repeated traversal.
 
 ---
 
-# 4. District Layout
+# 5. Major Districts
 
 The town is divided into several major districts.
 
-Each district represents a different stage of the outbreak and a different aspect of the town's ecosystem.
+Each district represents a different stage of the outbreak and a different environmental theme.
 
 Primary districts include:
 
@@ -65,7 +126,7 @@ Residential District
 Downtown District  
 Emergency Coordination Center  
 Harbor District  
-Hospital  
+Hospital District  
 Forest Region  
 Halcyon Marine Research Center
 
@@ -73,35 +134,93 @@ The final area of the game lies beneath the research center.
 
 ---
 
-# 5. District Connection Structure
+# 6. Setpiece Locations
 
-Downtown serves as the central hub of the game world.
+Several major environmental landmarks exist outside the main districts.
 
-Most districts connect through this area.
+These setpiece locations provide unique exploration experiences and strong visual identity.
 
-General world structure:
-
-```
-                Forest Region
-                     |
-        Residential District
-                     |
-                  Downtown
-             /       |       \
-Emergency Center  Hospital   Harbor
-                               |
-                     Research Center
-                               |
-                  Rot Convergence Chamber
-```
-
-This layout ensures that the world feels interconnected while still allowing controlled progression.
+Key setpieces include:
 
 ---
 
-# 6. Exploration Philosophy
+## Rot Aquarium
 
-The world map is designed around **exploration loops rather than linear paths**.
+A partially flooded marine research facility connected to Halcyon's coastal studies.
+
+Features:
+
+• shattered aquarium tanks  
+• flooded corridors  
+• infected marine life  
+
+This area introduces marine-based Rot mutations.
+
+---
+
+## Collapsed Lighthouse
+
+A coastal lighthouse overlooking the harbor cliffs.
+
+Originally used to broadcast emergency evacuation signals during the outbreak.
+
+Part of the structure collapsed due to Rot structural integration.
+
+The lighthouse acts as a **major visual landmark visible from multiple districts**.
+
+---
+
+## Fishing Trawler Graveyard
+
+A cluster of wrecked fishing vessels along the rocky shoreline.
+
+Many ships attempted to flee the harbor during the outbreak.
+
+Several collided or ran aground.
+
+The area now forms a maze of rusted shipwrecks infected with Rot growth.
+
+---
+
+# 7. World Connection Structure
+
+Downtown acts as the **central navigation hub** for the world.
+
+Most districts connect through this location.
+
+General world structure:
+
+                 Forest Region
+                      |
+           Collapsed Lighthouse
+                      |
+       Residential District
+                      |
+                   Downtown
+       /             |            \
+
+Emergency Center Hospital Harbor District
+|
+Rot Aquarium
+|
+Trawler Graveyard
+|
+Halcyon Research Center
+|
+Rot Convergence Chamber
+
+
+This structure ensures:
+
+• a central hub for navigation  
+• multiple exploration routes  
+• logical geographic relationships between locations
+
+---
+
+# 8. Exploration Philosophy
+
+The world map is designed around **exploration loops rather than linear progression**.
 
 Each district should contain:
 
@@ -110,108 +229,172 @@ Each district should contain:
 • optional side areas  
 • environmental storytelling locations
 
-Players should gradually learn the geography of the town through exploration.
+Players should gradually learn the geography of the town through repeated traversal.
+
+Unlocking shortcuts transforms the map into a **fast-travel network based on environmental routes rather than menus**.
 
 ---
 
-# 7. Navigation Landmarks
+---
 
-Several major landmarks help players orient themselves.
+# 9. Navigation Landmarks
+
+Blackwater Cove contains several prominent landmarks that help players orient themselves.
+
+These structures are visible from multiple districts and help players mentally map the town.
+
+---
+
+## Harbor Lighthouse
+
+The lighthouse sits on cliffs overlooking the harbor.
+
+Although partially collapsed, its upper tower remains visible across several coastal areas.
+
+Players can see the lighthouse from:
+
+• Harbor District  
+• Downtown rooftops  
+• coastal roads  
+• parts of the Forest Region
+
+Because of its height and coastal position, the lighthouse serves as a **natural navigation anchor for the map**.
+
+---
+
+## Downtown Clock Tower
+
+Located in the central plaza of the downtown district.
+
+The clock tower acts as the primary **urban landmark** within Blackwater Cove.
+
+It is visible from:
+
+• multiple downtown streets  
+• nearby residential roads  
+• elevated viewpoints within surrounding buildings
+
+Players returning to the downtown area can easily orient themselves using the clock tower.
+
+---
+
+## Hospital Emergency Wing
+
+The hospital is one of the tallest buildings in Blackwater Cove.
+
+Its emergency entrance signage and rooftop lighting structure make it recognizable even from a distance.
+
+The hospital functions as a major **mid-game destination landmark**.
+
+---
+
+## Halcyon Research Facility
+
+The Halcyon facility sits on cliffs overlooking the harbor.
+
+Its modern architecture contrasts with the older town structures.
+
+Distinctive features include:
+
+• large glass observation windows  
+• satellite communication equipment  
+• marine research docks
+
+The facility represents the **final major destination of the game world**.
+
+---
+
+# 10. World Boundaries
+
+The game world uses natural and environmental barriers to control exploration without breaking immersion.
 
 Examples include:
 
-Harbor Lighthouse  
-Visible from many outdoor areas near the coast.
+• collapsed roads  
+• landslides  
+• destroyed bridges  
+• blocked tunnels  
+• cliff edges  
+• Rot biomass barriers
 
-Downtown Clock Tower  
-Central landmark within the town.
+These barriers help ensure the playable area feels natural rather than artificially restricted.
 
-Hospital Emergency Entrance  
-Recognizable building structure.
-
-Halcyon Research Facility  
-Located on cliffs above the harbor.
-
-These landmarks help players mentally map the environment.
+Some barriers may be removed later through story progression or puzzle solutions.
 
 ---
 
-# 8. World Boundaries
+# 11. District Transition Points
 
-The game world uses natural barriers to limit exploration.
+Movement between districts occurs through specific transition zones.
+
+These areas serve both narrative and technical purposes.
 
 Examples include:
 
-collapsed roads  
-blocked tunnels  
-collapsed buildings  
-cliff edges
+• road checkpoints  
+• collapsed highway sections  
+• bridge crossings  
+• alleyway passages  
+• forest trails
 
-These boundaries maintain immersion while controlling playable space.
-
----
-
-# 9. District Transition Points
-
-Transitions between districts occur at specific locations.
-
-Examples include:
-
-road gates  
-bridge crossings  
-building interiors  
-forest trails
-
-These transition points allow the engine to load districts independently.
+These locations allow the game engine to load districts independently while maintaining the illusion of a continuous world.
 
 ---
 
-# 10. Early Game Navigation
+# 12. Early Game Navigation
 
-At the beginning of the game, the player explores a limited section of the town.
+At the beginning of the game, the player has access to only a small portion of the map.
 
-Accessible areas include:
+Initial exploration areas include:
 
 Residential District  
 Downtown District
 
-Other districts remain inaccessible until the player obtains key items or solves puzzles.
+Other districts remain inaccessible until the player discovers key items or completes specific objectives.
 
-This controlled progression ensures players are gradually introduced to the environment.
+Examples include:
+
+• unlocking emergency barricades  
+• restoring power systems  
+• obtaining access cards
+
+This controlled progression ensures the player becomes familiar with the environment before exploring more dangerous areas.
 
 ---
 
-# 11. Residential District
+# 13. Residential District
 
-The Residential District represents the player's first major exploration area.
+The Residential District represents the **first major exploration area**.
 
 This district contains:
 
 • family homes  
 • narrow residential streets  
-• small parks  
-• abandoned vehicles
+• small neighborhood parks  
+• abandoned vehicles  
+• makeshift survivor barricades
 
-Environmental storytelling focuses on the early stages of the outbreak.
+Environmental storytelling focuses on the **initial chaos of the outbreak**.
 
 Players may discover:
 
 • evacuation attempts  
 • abandoned homes  
-• survivor barricades
+• personal belongings left behind  
+• early Rot contamination
 
 Enemy presence is relatively light compared to later districts.
 
-Primary enemy types:
+Primary enemies include:
 
 • Rotters  
 • Collapsed Rotters
 
-This district introduces players to the core exploration mechanics.
+The Residential District introduces players to exploration, stealth, and basic combat mechanics.
 
 ---
 
-# 12. Downtown District
+# 14. Downtown District
 
 Downtown serves as the **central hub of the game world**.
 
@@ -220,40 +403,43 @@ This district contains:
 • small shops  
 • municipal buildings  
 • restaurants  
-• service alleys
+• narrow service alleys  
+• the central clock tower plaza
 
-Downtown connects multiple districts.
+Downtown connects multiple districts together.
 
-Key gameplay functions:
+Key gameplay functions include:
 
 • central navigation hub  
 • safe zone placement  
-• shortcut connections
+• shortcut connections between districts
 
-Players revisit this area multiple times throughout the game.
+Players revisit downtown several times throughout the game as new routes become available.
 
 ---
 
-# 13. Emergency Coordination Center
+# 15. Emergency Coordination Center
 
-During the outbreak, local authorities converted several municipal buildings into an emergency response center.
+When the outbreak began, local authorities converted several municipal buildings into an emergency command center.
 
 This district contains:
 
-• command rooms  
+• emergency operations rooms  
 • communication equipment  
-• emergency shelters
+• temporary refugee shelters  
+• supply storage areas
 
 Environmental storytelling reveals:
 
-• how the town attempted to contain the outbreak  
-• the failure of evacuation efforts
+• how the town attempted to organize evacuation efforts  
+• the failure of quarantine protocols  
+• the collapse of local infrastructure
 
-Puzzle systems in this area involve restoring communication equipment.
+Puzzle systems in this area involve restoring communication equipment and activating emergency systems.
 
 ---
 
-# 14. Harbor District
+# 16. Harbor District
 
 The harbor is the economic heart of Blackwater Cove.
 
@@ -262,129 +448,219 @@ Infrastructure includes:
 • fishing docks  
 • boat repair garages  
 • cargo warehouses  
-• fish processing facilities
+• fish processing facilities  
+• marine supply stores
 
-This is the **first heavily infected district**.
+This district represents the **first heavily infected area**.
 
 Environmental changes include:
 
 • Rot growth across docks  
-• organic structures fused with machinery  
-• marine Rot organisms
+• organic structures fused with harbor machinery  
+• marine organisms integrated with Rot biomass
 
-Primary enemies:
+Primary enemies include:
 
 • Harbor Rotters  
-• Stalkers
+• Stalker variants
 
 Major encounter:
 
 Harbor Bloom Guardian boss.
 
+The harbor also serves as the gateway to several setpiece locations.
+
 ---
 
-# 15. Hospital District
+# 17. Rot Aquarium
 
-The hospital reveals the medical response to the outbreak.
+The Rot Aquarium is located along the harbor coastline.
 
-Locations include:
+Originally built as a marine exhibit and research facility, the aquarium was used by Halcyon to study unusual oceanic biological samples.
 
+During the outbreak, several tanks ruptured, allowing infected marine organisms to escape.
+
+Environmental features include:
+
+• flooded corridors  
+• broken glass tanks  
+• submerged walkways  
+• mutated marine life
+
+The aquarium introduces the player to **marine-based Rot mutations**.
+
+---
+
+---
+
+# 18. Hospital District
+
+Blackwater Hospital represents the town’s medical response to the outbreak.
+
+The hospital environment becomes increasingly oppressive and claustrophobic as the player progresses through it.
+
+Key locations include:
+
+• emergency entrance  
 • patient wards  
 • surgical theaters  
-• quarantine areas  
-• medical laboratories
+• quarantine wing  
+• hospital basement  
+• pharmaceutical storage
 
 Environmental storytelling reveals:
 
 • early attempts to treat infected residents  
-• experimental procedures  
-• containment failures
+• failed medical containment efforts  
+• experimental treatment attempts involving unknown biological compounds
 
 Primary enemies:
 
 • Medical Rotters  
 • Collapsed Rotters
 
-Boss encounter:
+Major encounter:
 
 Spliced Medical Mutation.
 
+This boss represents a failed attempt by hospital staff to contain the infection using experimental treatments.
+
 ---
 
-# 16. Forest Region
+# 19. Forest Region
 
-The forest surrounds Blackwater Cove and becomes increasingly corrupted by the Rot ecosystem.
+The forest surrounds Blackwater Cove and forms the natural boundary of the playable area.
+
+This region introduces **wildlife mutations** and larger environmental spaces.
 
 Features include:
 
 • dense tree coverage  
-• hiking trails  
-• ranger structures
+• narrow hiking trails  
+• ranger outposts  
+• abandoned logging equipment  
+• collapsed forest roads
 
-This district introduces wildlife affected by the Rot.
+Environmental corruption becomes increasingly visible in this region.
+
+Examples include:
+
+• Rot growth spreading across tree roots  
+• corrupted wildlife carcasses  
+• strange spiral formations in the soil
 
 Primary enemies:
 
 • Rot Wolves  
-• Stalker variants
+• Hunter Stalkers
 
 Mini-boss encounter:
 
 Rot Stag.
 
-The forest also serves as a transition between the town and the research center.
+The forest acts as a transition zone between the town and the Halcyon research facility.
 
 ---
 
-# 17. Halcyon Marine Research Center
+# 20. Fishing Trawler Graveyard
 
-Located on cliffs overlooking the harbor, the Halcyon facility was built to study unusual biological material discovered offshore.
+The Trawler Graveyard is located along a rocky coastline beyond the harbor.
 
-The facility contains:
+During the outbreak, several fishing vessels attempted to escape the harbor.
 
-• marine research laboratories  
-• containment chambers  
-• restricted underground sections
+Many collided or ran aground during the chaos.
 
-Environmental storytelling reveals:
-
-• Halcyon's Rot experiments  
-• the internal conflict between researchers  
-• the containment failure that caused the outbreak
-
-Enemy presence increases significantly in this area.
-
----
-
-# 18. Rot Convergence Chamber
-
-The final area lies beneath the research facility in a cavern system connected to deep ocean trench structures.
-
-This chamber contains the largest Rot growth encountered in the game.
+The wreckage now forms a maze of rusted ships and broken docks.
 
 Environmental features include:
 
-• massive organic structures  
-• Rot tissue walls  
-• biological tendrils connecting chambers
+• overturned fishing vessels  
+• collapsed cargo cranes  
+• narrow metal walkways between ships  
+• partially submerged hulls
+
+Rot growth spreads across ship interiors and machinery.
+
+This location creates a highly vertical exploration environment.
+
+Enemies encountered here include:
+
+• Harbor Rotters  
+• marine-infected Rot organisms
+
+The graveyard provides several environmental storytelling moments showing the final attempts of fishermen to escape the outbreak.
+
+---
+
+# 21. Halcyon Marine Research Center
+
+The Halcyon Marine Research Center sits on cliffs overlooking the harbor.
+
+The facility originally served as a marine biology research station but secretly operated as a Rot research laboratory.
+
+The building contrasts sharply with the older architecture of Blackwater Cove.
+
+Facility areas include:
+
+• administrative offices  
+• marine biology laboratories  
+• Rot containment chambers  
+• security monitoring rooms  
+• restricted research sectors
+
+Environmental storytelling reveals:
+
+• Halcyon’s internal research conflicts  
+• failed containment experiments  
+• the ethical divide within the organization
+
+Enemy presence increases significantly in this area due to advanced Rot mutation experiments.
+
+The facility also contains large numbers of research documents and archival materials.
+
+---
+
+# 22. Rot Convergence Chamber
+
+Beneath the research facility lies a cavern system connected to deep ocean trench structures.
+
+This location represents the **central Rot growth zone** beneath Blackwater Cove.
+
+Environmental features include:
+
+• massive organic growth formations  
+• biological tunnels  
+• pulsating Rot tissue walls  
+• spiral-shaped Rot structures embedded in stone
+
+The chamber appears to be an ancient biological structure that predates the Halcyon facility.
+
+It suggests that the Rot ecosystem may have existed beneath the region long before modern research began.
 
 Final boss encounter:
 
 Dr Victor Soren.
 
-This area represents the heart of the Rot ecosystem within Blackwater Cove.
+Soren attempted to merge himself with the Rot organism in order to understand its structure.
+
+His transformation represents the final stage of Halcyon’s experimental obsession.
 
 ---
 
-# 19. Safe Zone Placement
+# 23. Safe Zone Placement
 
-Each district contains at least one safe zone.
+Safe zones provide temporary refuge from the dangers of the Rot ecosystem.
 
-Safe zones provide:
+These locations allow players to:
 
-• save points  
-• storage containers  
-• crafting locations
+• save progress  
+• access storage containers  
+• craft survival items  
+• review collected documents
+
+Enemies cannot enter safe zones.
+
+Each major district contains at least one safe zone.
 
 Examples include:
 
@@ -412,9 +688,9 @@ Safe zones provide moments of relief between exploration segments.
 
 ---
 
-# 20. World Progression
+# 24. World Progression
 
-Players unlock districts gradually.
+Players gradually unlock new districts as the story progresses.
 
 Typical progression order:
 
@@ -422,40 +698,52 @@ Residential District
 Downtown District  
 Emergency Coordination Center  
 Harbor District  
-Hospital  
+Rot Aquarium  
+Hospital District  
 Forest Region  
-Research Center  
+Trawler Graveyard  
+Halcyon Research Center  
 Rot Convergence Chamber
 
 However, players frequently revisit earlier areas using newly unlocked shortcuts.
 
+This structure encourages deeper exploration and environmental familiarity.
+
 ---
 
-# 21. Dynamic Environmental Changes
+# 25. Dynamic Environmental Changes
 
-As the game progresses, the Rot ecosystem spreads through earlier districts.
+As the game progresses, the Rot ecosystem continues spreading throughout the town.
 
-Changes may include:
+Earlier districts may change over time.
+
+Examples include:
 
 • increased enemy presence  
-• new Rot growth structures  
-• additional environmental hazards
+• additional Rot growth structures  
+• newly blocked pathways  
+• environmental hazards
 
-These changes reinforce the idea that the ecosystem is actively evolving.
+These changes reinforce the idea that the Rot is a **living ecosystem actively reshaping the environment**.
 
 ---
 
-# 22. World Design Goals
+# 26. World Design Goals
 
 The world design of ROT aims to create a believable and immersive environment.
 
-Key goals include:
+Key design goals include:
 
-• a coherent town layout  
-• meaningful environmental storytelling  
+• a coherent and believable town layout  
+• strong environmental storytelling  
 • exploration-driven progression  
-• interconnected districts
+• interconnected districts and shortcuts  
+• memorable environmental setpieces
 
-The player should feel like they are exploring a real place that gradually transforms into a living biological ecosystem.
+Players should feel like they are exploring a real place gradually transforming into a biological ecosystem.
+
+Blackwater Cove begins as a recognizable coastal town.
+
+By the end of the game it becomes something entirely different — a living biological structure shaped by the Rot.
 
 ---

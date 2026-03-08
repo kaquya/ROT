@@ -1,379 +1,437 @@
 # ROT – Puzzle Design
 
-Version: 1.0  
-Status: Gameplay Design
+Version: 1.1  
+Status: Gameplay Design Specification
 
 ---
 
 # 1. Purpose of This Document
 
-This document defines the design principles and structure of puzzles used throughout ROT.
+This document defines the **puzzle systems used in ROT**.
 
-Puzzles are an important part of the exploration gameplay loop and are used to:
+Puzzles in ROT serve several functions:
 
-• unlock new areas  
 • control player progression  
 • reinforce environmental storytelling  
-• encourage exploration of the world
+• create tension between exploration and danger  
+• encourage observation of the world
 
-Unlike abstract puzzle games, puzzles in ROT should always feel **grounded in the physical environment**.
+Puzzles should always feel like **natural interactions with the environment**, not abstract challenges.
 
-Players should feel like they are interacting with real systems within the world.
+The player should feel like they are **repairing systems, bypassing obstacles, or manipulating real-world infrastructure**.
 
 ---
 
 # 2. Puzzle Design Philosophy
 
-Puzzle design in ROT follows several guiding principles.
+ROT follows several core puzzle design principles.
 
 ---
 
 ## Environmental Logic
 
-Puzzles must make sense within the environment.
+Puzzles must always make sense within the world.
 
 Examples include:
 
 • restoring electrical power  
+• unlocking security doors  
 • repairing mechanical equipment  
-• unlocking security systems  
-• removing Rot growth blocking pathways
+• removing Rot biomass blocking passageways
 
-The player should understand the problem through observation.
-
----
-
-## Exploration Driven Solutions
-
-Puzzle solutions often require exploration of nearby areas.
-
-Players may need to:
-
-• locate missing components  
-• find access cards  
-• activate multiple switches in different locations
-
-This encourages players to explore the environment thoroughly.
+The player should understand **why the puzzle exists**.
 
 ---
 
-## Minimal Abstraction
+## Low Cognitive Friction
 
-Puzzles should avoid abstract mechanics such as symbol matching or mathematical puzzles.
+Puzzles should not stop gameplay for long periods.
 
-The focus should remain on **environmental interaction**.
+Instead they should:
+
+• encourage observation  
+• reward exploration  
+• connect to the surrounding environment
+
+Puzzle solutions should rarely require outside knowledge or abstract logic.
+
+---
+
+## Risk vs Reward
+
+Solving puzzles may expose the player to danger.
+
+Examples include:
+
+• activating generators that attract enemies  
+• entering contaminated Rot zones  
+• navigating dark areas
+
+This maintains survival tension.
+
+---
+
+## Integration with Rot Systems
+
+Some puzzles interact with the **Rot Exposure System**.
+
+Examples include:
+
+• navigating contaminated environments  
+• disabling Rot growth nodes  
+• rerouting infected water systems
+
+These puzzles reinforce the idea that the Rot is a **living ecosystem**.
 
 ---
 
 # 3. Puzzle Categories
 
-Several puzzle categories appear throughout the game.
-
-These categories repeat across districts to create familiarity while still offering variation.
+Puzzles in ROT fall into several primary categories.
 
 ---
 
-# 3.1 Infrastructure Restoration
+# 4. Mechanical System Puzzles
 
-Many locations contain damaged infrastructure that must be restored.
+Mechanical puzzles involve repairing or activating physical systems.
+
+These puzzles are grounded in real-world infrastructure.
 
 Examples include:
 
-• restoring electrical power  
-• repairing water pumps  
-• activating emergency generators
-
-Typical puzzle flow:
-
-1. discover damaged system
-2. locate missing component
-3. restore functionality
+• restoring power generators  
+• opening mechanical gates  
+• repairing machinery
 
 ---
 
-# 3.2 Access Control Systems
+## Example: Harbor Crane Activation
 
-Restricted areas often require access credentials.
+Location: Harbor District
 
-Examples include:
+The player must restore power to a damaged crane to move shipping containers blocking a dock pathway.
 
-• security keycards  
+Steps:
+
+1. Locate generator fuel.
+2. Restore power to the crane.
+3. Use crane controls to reposition containers.
+
+Activating the crane creates noise that attracts enemies.
+
+---
+
+# 5. Electrical Network Puzzles
+
+Electrical puzzles involve restoring power across damaged systems.
+
+These puzzles typically require:
+
+• locating circuit breakers  
+• rerouting power  
+• activating backup generators
+
+---
+
+## Example: Emergency Communication System
+
+Location: Emergency Coordination Center
+
+Objective:
+
+Restore power to the town’s emergency communication network.
+
+Steps:
+
+1. Activate backup generator.
+2. Reset circuit breakers across multiple rooms.
+3. reconnect communication equipment.
+
+Completing the puzzle reveals emergency broadcast logs.
+
+---
+
+# 6. Access Control Puzzles
+
+These puzzles involve unlocking secured locations.
+
+Access systems include:
+
+• keycards  
 • mechanical keys  
-• electronic access terminals
+• biometric locks  
+• security consoles
 
-These puzzles encourage players to search nearby areas for required items.
+These puzzles encourage exploration across multiple districts.
 
 ---
 
-# 3.3 Environmental Manipulation
+## Example: Hospital Quarantine Lock
 
-Some puzzles require manipulating the environment itself.
+Location: Hospital District
+
+The quarantine wing requires a medical access card.
+
+Players must locate the card in the hospital pharmacy storage area.
+
+Unlocking the quarantine wing reveals:
+
+• infected patients  
+• medical research notes  
+• evidence of experimental treatments.
+
+---
+
+# 7. Rot Biomass Puzzles
+
+These puzzles involve interacting with or removing Rot growth.
+
+Rot biomass may block pathways or disable equipment.
+
+Players must:
+
+• destroy Rot nodes  
+• reroute contaminated fluids  
+• activate sterilization systems
+
+These puzzles emphasize the Rot as a **biological structure** rather than a simple infection.
+
+---
+
+## Example: Rot Growth Blockade
+
+Location: Forest Region
+
+A trail is blocked by dense Rot biomass.
+
+The player must locate and destroy three nearby Rot growth nodes.
+
+Destroying the nodes weakens the biomass barrier and opens the path.
+
+---
+
+# 8. Environmental Navigation Puzzles
+
+These puzzles involve navigating complex environments.
 
 Examples include:
 
-• moving heavy objects  
-• activating machinery  
-• opening blocked pathways
+• moving through flooded corridors  
+• climbing damaged structures  
+• navigating shipwrecks
 
-These puzzles create new exploration routes.
+The challenge comes from understanding the **layout of the environment**.
 
 ---
 
-# 3.4 Rot Obstruction Removal
+## Example: Aquarium Flooded Corridor
 
-As the Rot spreads, organic growth structures block many areas.
+Location: Rot Aquarium
 
-Players must destroy or disable these obstacles.
+The player must navigate partially submerged corridors while avoiding electrical hazards.
+
+Steps include:
+
+• shutting down damaged electrical systems  
+• raising water level controls  
+• opening sealed maintenance doors
+
+This puzzle also introduces marine Rot organisms.
+
+---
+
+# 9. Rot Exposure Puzzles
+
+Certain puzzles involve navigating areas with high Rot contamination.
+
+The player must manage exposure levels while completing objectives.
+
+Possible mechanics include:
+
+• activating ventilation systems  
+• sealing contaminated chambers  
+• destroying Rot nodes
+
+Failure to manage exposure may cause:
+
+• hallucinations  
+• distorted environments  
+• increased enemy attraction
+
+---
+
+# 10. Multi-Step Progression Puzzles
+
+Some puzzles require completing multiple objectives across different locations.
+
+These puzzles create long-term goals for exploration.
+
+---
+
+## Example: Harbor Dock Power Grid
+
+Location: Harbor District
+
+The dockyard power grid has failed.
+
+To restore it, the player must:
+
+1. restart a backup generator in the repair garage  
+2. reconnect wiring inside a warehouse  
+3. activate the harbor control tower
+
+Completing the puzzle unlocks access to the Rot Aquarium district.
+
+---
+
+# 11. Puzzle Difficulty Progression
+
+Puzzle complexity increases as the game progresses.
+
+---
+
+## Early Game
+
+Simple puzzles introducing core mechanics.
+
+Examples:
+
+• unlocking doors  
+• restoring single generators  
+• clearing small obstacles
+
+---
+
+## Mid Game
+
+Multi-room puzzle sequences.
+
+Examples:
+
+• electrical network restoration  
+• access card exploration puzzles  
+• mechanical system activation
+
+---
+
+## Late Game
+
+Complex puzzles integrated with enemy encounters and Rot exposure.
+
+Examples:
+
+• disabling containment systems  
+• navigating Rot-infested research labs  
+• activating facility control systems
+
+---
+
+# 12. Puzzle Fail States
+
+Most puzzles should not permanently fail.
+
+Instead failure results in:
+
+• enemy encounters  
+• resource loss  
+• increased Rot exposure
+
+This prevents players from becoming stuck.
+
+---
+
+# 13. Environmental Storytelling Through Puzzles
+
+Puzzles often reveal narrative information.
 
 Examples include:
 
-• destroying Rot growth nodes  
-• neutralizing spore sacs  
-• clearing biomass clusters
+• medical logs discovered while unlocking hospital wings  
+• Halcyon research documents found while activating lab systems  
+• emergency broadcasts restored through communication puzzles
 
-Removing these structures often reduces nearby enemy activity.
-
----
-
-# 4. Puzzle Difficulty Curve
-
-Puzzle complexity increases gradually as the game progresses.
-
-Early Game
-
-Simple environmental puzzles introducing basic mechanics.
-
-Mid Game
-
-Multi-step puzzles requiring exploration across districts.
-
-Late Game
-
-Complex puzzles integrated with Rot ecosystem mechanics.
-
-Despite this progression, puzzles should remain readable and logical.
+Players learn about the outbreak **while solving gameplay challenges**.
 
 ---
 
-# 5. Puzzle Feedback
+# 14. Puzzle Placement Strategy
 
-When a puzzle is solved, the game should clearly communicate the result.
+Puzzles should be placed in locations where they make logical sense.
 
 Examples include:
 
-• power restoring to nearby buildings  
-• locked doors opening  
-• Rot growth collapsing
+Electrical puzzles
 
-Clear feedback helps players understand the consequences of their actions.
+Power stations, control rooms.
 
----
+Mechanical puzzles
 
-# 6. Optional Puzzle Content
+Industrial facilities, docks.
 
-Some puzzles are optional and reward exploration.
+Security access puzzles
 
-Optional puzzles may unlock:
+Research labs, hospital areas.
 
-• hidden supply caches  
-• rare crafting materials  
-• narrative documents
+Rot puzzles
 
-These puzzles encourage curious players to explore thoroughly.
+Areas heavily corrupted by the Rot ecosystem.
 
 ---
 
-# 7. District Puzzle Implementation
+# 15. Puzzle Design Goals
 
-Each district introduces specific puzzle mechanics that reflect its environment.
-
----
-
-## Residential District
-
-The Residential District introduces the player to basic puzzle interactions.
-
-Examples include:
-
-• unlocking blocked gates  
-• restoring power to a residential street  
-• locating house keys
-
-These puzzles are simple and serve as tutorials for later mechanics.
+Puzzles in ROT should achieve the following goals.
 
 ---
 
-## Downtown District
+## Support Exploration
 
-Downtown puzzles involve interacting with municipal infrastructure.
-
-Examples include:
-
-• activating emergency generators  
-• unlocking municipal buildings  
-• restoring power to the clock tower square
-
-Downtown puzzles often open shortcuts connecting different parts of the town.
+Players should discover puzzle elements naturally through exploration.
 
 ---
 
-## Emergency Coordination Center
+## Maintain Tension
 
-Puzzles in this district focus on communication and emergency systems.
+Puzzle solving should never feel completely safe.
 
-Examples include:
-
-• repairing radio transmitters  
-• activating emergency control panels  
-• restoring power to the operations room
-
-These puzzles reveal how the town attempted to coordinate evacuation.
+Enemies may appear or hazards may activate.
 
 ---
 
-## Harbor District
+## Reinforce Narrative
 
-The harbor introduces environmental hazard puzzles.
+Puzzles should reveal information about:
 
-Examples include:
-
-• activating dock cranes to move cargo containers  
-• opening shipping gates  
-• destroying Rot growth blocking dock pathways
-
-These puzzles often involve interacting with industrial machinery.
+• the outbreak  
+• Halcyon research  
+• the Rot ecosystem
 
 ---
 
-## Hospital District
+## Encourage Observation
 
-Hospital puzzles focus on medical infrastructure.
+Players should solve puzzles by:
 
-Examples include:
+• examining environments  
+• reading documents  
+• understanding infrastructure
 
-• locating patient records to unlock quarantine wards  
-• restoring backup power to surgical theaters  
-• unlocking restricted medical storage rooms
-
-These puzzles reveal attempts to treat the Rot infection.
+The world itself should provide the clues.
 
 ---
 
-## Forest Region
+# 16. Balancing Notes
 
-Forest puzzles rely on natural environmental obstacles.
+Puzzle difficulty will be refined during:
 
-Examples include:
+• level blockout testing  
+• playtesting sessions  
+• pacing adjustments
 
-• clearing fallen trees blocking paths  
-• activating ranger station generators  
-• locating trail keys to open ranger buildings
+The goal is to maintain a balance between:
 
-These puzzles emphasize exploration in outdoor environments.
-
----
-
-## Halcyon Research Center
-
-Research facility puzzles involve advanced technology.
-
-Examples include:
-
-• unlocking laboratory security systems  
-• activating containment protocols  
-• restoring power to research equipment
-
-These puzzles reveal the scientific investigation of the Rot organism.
-
----
-
-# 8. Rot Ecosystem Puzzle Mechanics
-
-As the game progresses, puzzles begin interacting directly with the Rot ecosystem.
-
----
-
-## Rot Growth Nodes
-
-Rot nodes act as biological control centers for nearby growth structures.
-
-Destroying these nodes may:
-
-• open blocked pathways  
-• weaken nearby enemies  
-• slow Rot spread
-
----
-
-## Spore Chambers
-
-Some areas become filled with airborne Rot spores.
-
-Players must locate and destroy spore sacs to clear the environment.
-
-Until cleared, these areas damage the player over time.
-
----
-
-## Biomass Clusters
-
-Large organic growth clusters block corridors and buildings.
-
-Players must locate weak points to destroy these structures.
-
-These encounters combine puzzle solving with combat.
-
----
-
-# 9. Puzzle Encounter Integration
-
-Puzzles often occur alongside enemy encounters.
-
-Examples include:
-
-• solving generator puzzles while enemies patrol nearby  
-• restoring power in dark environments where enemies hide  
-• clearing Rot nodes while under attack
-
-This integration increases tension during puzzle sequences.
-
----
-
-# 10. Puzzle System Implementation
-
-Puzzles are implemented using simple trigger-based systems.
-
-Each puzzle includes three components.
-
-Puzzle Trigger
-
-The object or system the player interacts with.
-
-Puzzle State
-
-Tracks whether the puzzle is incomplete, active, or solved.
-
-Puzzle Outcome
-
-The environmental change that occurs after solving the puzzle.
-
-Puzzle states must be saved in the game state so that progress is preserved.
-
----
-
-# 11. Puzzle Design Goals
-
-Puzzle design should support the core gameplay loop.
-
-Puzzles must:
-
-• encourage exploration  
-• reinforce environmental storytelling  
-• control player progression  
-• integrate with combat encounters
-
-Puzzles should never feel disconnected from the world.
-
-The player should feel like they are **repairing or interacting with real systems inside the environment**.
+• challenge  
+• immersion  
+• narrative progression
 
 ---

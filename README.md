@@ -1,547 +1,287 @@
-# ROT
+# ROT – Survival Horror Game Documentation
 
-ROT is a survival horror game currently in pre-production.
+Version: 1.1
+Status: Active Design Documentation
 
-This repository contains the **complete design, technical, and production documentation** for the project.  
-The documentation is structured to support **solo development**, clear system architecture, and a smooth transition into implementation.
+---
 
-The project is currently in the **documentation and vertical slice preparation phase**.
+# Overview
+
+This repository contains the **complete design documentation for ROT**, a narrative-driven survival horror game set in the coastal town of **Blackwater Cove**.
+
+ROT focuses on **biological horror, ecological mutation, and exploration-driven storytelling**.
+The world is being consumed by a mysterious biological system known as **the Rot**, which restructures living organisms into new ecological forms.
+
+This repository serves as the **central design reference** for the project and documents every major aspect of the game, including:
+
+* gameplay systems
+* enemy design
+* level design
+* narrative lore
+* engineering architecture
+* production planning
+
+The documentation is intended to support **long-term development and collaboration**.
+
+---
+
+# What is ROT?
+
+ROT is a **narrative survival horror game** built around exploration, environmental storytelling, and tactical survival.
+
+Players explore the abandoned coastal town of **Blackwater Cove**, uncovering the truth behind the Rot ecosystem and the research conducted by the mysterious **Halcyon Initiative**.
+
+The game emphasizes:
+
+* survival tension
+* ecological horror
+* exploration-based progression
+* narrative discovery through environment and collectibles
+
+The Rot is not a traditional infection.
+
+Instead, it behaves like a **biological restructuring system**, reorganizing life and environments into a new ecosystem.
+
+---
+
+# Core Design Pillars
+
+ROT is designed around several core pillars.
+
+### Survival Horror Tension
+
+Resources are limited.
+Combat is dangerous.
+Players must carefully manage health, stamina, and contamination.
+
+---
+
+### Ecological Horror
+
+The Rot behaves like a living ecosystem.
+
+Creatures, environments, and structures become integrated into a biological network that reshapes the world.
+
+---
+
+### Exploration-Driven Progression
+
+Players progress by exploring the world, discovering new locations, unlocking shortcuts, and uncovering narrative fragments.
+
+The game encourages curiosity and careful observation of the environment.
+
+---
+
+### Environmental Storytelling
+
+The story of Blackwater Cove is discovered through:
+
+* abandoned locations
+* collectible documents
+* environmental clues
+* Halcyon research records
+
+Players reconstruct the history of the outbreak by piecing together fragments of information.
 
 ---
 
 # Repository Structure
 
-The repository is divided into several documentation sections.  
-Each section focuses on a specific aspect of the project.
-
+The repository is organized into two main sections:
 
 ```
-ROT
-│
-├── docs
-│   ├── 00_franchise
-│   │   ├── 03_art_worldbuilding
-│   │   │   ├── 00_art_direction_bible.md
-│   │   │   ├── 01_rot_visual_design.md
-│   │   │   ├── 02_creature_design_rules.md
-│   │   │   ├── 03_architecture_environment.md
-│   │   │   ├── 04_environmental_storytelling.md
-│   │   ├── 04_production
-│   │   │   ├── 00_franchise_roadmap.md
-│   │   │   ├── 01_rot_game_production_plan.md
-│   │   │   └── 02_development_milestones.md
-│   │   ├── 00_franchise_bible.md
-│   │   └── 01_gameplay_systems.md
-│   └── 01_games
-│       └── 00_rot
-│           ├── 00_gdd
-│           │   ├── 00_game_design_document.md
-│           │   ├── 01_gameplay_flow.md
-│           │   ├── 02_weapons_and_items.md
-│           │   ├── 03_enemy_stats.md
-│           │   └── 04_player_stats.md
-│           ├── 01_technical_design
-│           │   └── 00_technical_design_document.md
-│           ├── 02_level_design
-│           │   ├── 00_world_map.md
-│           │   ├── 01_district_layouts.md
-│           │   ├── 02_puzzle_design.md
-│           │   └── 03_vertical_slice_spec.md
-│           ├── 03_enemy_design
-│           │   └── 00_enemy_design_document.md
-│           ├── 04_implementation_plan
-│           │   └── 00_implementation_plan.md
-│           ├── 05_systems
-│           │   ├── 00_player_controller.md
-│           │   ├── 01_interaction_system.md
-│           │   ├── 02_inventory_system.md
-│           │   ├── 03_combat_system.md
-│           │   ├── 04_enemy_ai_system.md
-│           │   ├── 05_crafting_system.md
-│           │   ├── 06_stealth_system.md
-│           │   ├── 07_save_system.md
-│           │   ├── 08_puzzle_system.md
-│           │   ├── 09_boss_system.md
-│           │   ├── 10_audio_system.md
-│           │   └── 11_ui_system.md
-│           ├── 06_engineering
-│           │   ├── 00_project_architecture.md
-│           │   ├── 01_data_structures.md
-│           │   ├── 02_state_management.md
-│           │   ├── 03_save_data_format.md
-│           │   ├── 04_ai_state_machine.md
-│           │   ├── 05_input_system.md
-│           │   └── 06_performance_strategy.md
-│           ├── 07_pipelines
-│           │   ├── 00_environment_pipeline.md
-│           │   ├── 01_enemy_pipeline.md
-│           │   ├── 02_animation_pipeline.md
-│           │   ├── 03_audio_pipeline.md
-│           │   └── 04_asset_naming_conventions
-│           ├── 08_testing
-│           │   ├── 00_test_plan.md
-│           │   ├── 01_bug_reporting.md
-│           │   └── 02_playtest_protocol.md
-│           ├── 09_tools
-│           │   ├── 00_editor_tools.md
-│           │   └── 01_debug_tools.md
-│           └── 10_lore
-│               ├── 00_timeline.md
-│               ├── 01_halcyon_records.md
-│               ├── 02_blackwater_history.md
-│               └── 03_collectibles.md
-└── game
-└── README.md
+docs/
 ```
 
+```
+00_franchise/
+```
 
-The **game folder** will later contain the actual source code and game assets.
-
----
-
-# Franchise Documentation
-
-Location:
-
-
-docs/franchise
-
-
-These files define the **overall ROT universe** and gameplay philosophy.
-
-### franchise_bible.md
-
-Defines the foundation of the ROT universe.
+Franchise-level documentation that defines the overall universe and creative rules for the ROT setting.
 
 Includes:
 
-- the Rot phenomenon
-- enemy ecosystem
-- franchise themes
-- narrative philosophy
-- recurring symbolism
-- long-term narrative arc
+* worldbuilding
+* visual identity
+* creature design rules
+* environment design philosophy
+* franchise direction
+
+These documents guide **all projects set in the ROT universe**.
 
 ---
 
-### gameplay_systems.md
+```
+01_games/
+    00_rot/
+```
 
-Defines gameplay systems shared across ROT games.
+Game-specific documentation for the first ROT project.
 
-Includes:
+This section contains detailed design documentation for every system in the game.
 
-- combat philosophy
-- inventory system design
-- crafting systems
-- stealth mechanics
-- enemy AI concepts
-- resource economy
+Key categories include:
 
----
-
-# Art and Worldbuilding
-
-Location:
-
-
-docs/art_worldbuilding
-
-
-Defines the visual direction and environmental storytelling of the game.
-
-### art_direction_bible.md
-
-Defines the overall visual style.
-
-Includes:
-
-- tone
-- lighting
-- environmental decay
-- atmosphere
+| Folder                 | Description                        |
+| ---------------------- | ---------------------------------- |
+| 00_overview            | High-level description of the game |
+| 01_game_design         | Core game design documents         |
+| 02_core_systems        | Gameplay systems                   |
+| 03_enemy_design        | Enemy behavior and design          |
+| 04_level_design        | World layout and exploration       |
+| 05_progression_balance | Player and enemy balance           |
+| 06_engineering         | Technical architecture             |
+| 07_pipelines           | Asset production pipelines         |
+| 08_testing             | QA and testing procedures          |
+| 09_tools               | Internal development tools         |
+| 10_lore                | Narrative and world lore           |
+| 11_production          | Development planning               |
 
 ---
 
-### rot_visual_design.md
+# Key Documents
 
-Defines how the Rot organism visually appears.
+If you are new to the project, start with these documents.
 
-Includes:
+### Game Overview
 
-- mutation structures
-- growth patterns
-- color palette
-- environmental infection
+```
+01_games/00_rot/00_overview/game_overview.md
+```
 
----
-
-### creature_design_rules.md
-
-Rules for designing Rot-infected enemies.
-
-Includes:
-
-- mutation principles
-- anatomy distortion
-- silhouette design
-- behavior traits
+Provides a high-level explanation of the game concept and setting.
 
 ---
 
-### architecture_environment.md
+### Gameplay Pillars
 
-Defines environment design.
+```
+01_games/00_rot/00_overview/gameplay_pillars.md
+```
 
-Includes:
-
-- building styles
-- decay and destruction
-- Rot corruption stages
+Defines the core design philosophy of the game.
 
 ---
 
-### environmental_storytelling.md
+### Gameplay Loop
 
-Defines how the world communicates story.
+```
+01_games/00_rot/01_game_design/gameplay_loop.md
+```
 
-Includes:
+Explains the main gameplay cycle:
 
-- abandoned environments
-- civilian traces
-- disaster storytelling
-- Rot takeover progression
-
----
-
-# Production Documentation
-
-Location:
-
-
-docs/production
-
-
-Defines the development roadmap and project planning.
-
-### franchise_roadmap.md
-
-Long-term plans for the ROT franchise.
-
-Includes:
-
-- potential future games
-- narrative expansion
-- world progression
+```
+explore → scavenge → survive → uncover story → progress
+```
 
 ---
 
-### rot_game_production_plan.md
+### Rot Exposure System
 
-Production planning for the first game.
+```
+01_games/00_rot/02_core_systems/rot_exposure_system.md
+```
 
-Includes:
+One of the core mechanics of the game.
 
-- development phases
-- vertical slice planning
-- milestone structure
-
----
-
-### development_milestones.md
-
-Defines development stages.
-
-Includes:
-
-- prototype
-- vertical slice
-- alpha
-- beta
-- release
+Defines contamination mechanics and how the Rot affects the player.
 
 ---
 
-# Game Documentation
+### World Map
 
-Location:
+```
+01_games/00_rot/04_level_design/world_map.md
+```
 
-
-docs/games/rot
-
-
-Contains all documentation specific to the first ROT game.
+Describes the structure of Blackwater Cove and its districts.
 
 ---
 
-# Game Design
+### Timeline
 
-Location:
+```
+01_games/00_rot/10_lore/timeline.md
+```
 
-
-docs/games/rot/gdd
-
-
-### game_design_document.md
-
-Main design document.
-
-Includes:
-
-- story structure
-- characters
-- districts
-- enemy encounters
-- boss fights
-- gameplay progression
+Historical timeline of the outbreak and events surrounding the town.
 
 ---
 
-# Technical Design
+# Development Philosophy
 
-Location:
+The project follows several design principles.
 
+### Consistency
 
-docs/games/rot/technical_design
-
-
-### technical_design_document.md
-
-Defines system architecture.
-
-Includes:
-
-- engine systems
-- system dependencies
-- runtime architecture
+All systems should follow consistent terminology and design philosophy.
 
 ---
 
-# Level Design
+### Modular Design
 
-Location:
+Systems are designed to be modular and expandable.
 
-
-docs/games/rot/level_design
-
-
-### world_map.md
-
-Defines the global map structure of Blackwater Cove.
+This allows the game to scale without requiring major rewrites.
 
 ---
 
-### district_layouts.md
+### Exploration First
 
-Defines layouts for each district.
-
-Includes:
-
-- exploration routes
-- enemy placement philosophy
-- shortcuts and loops
+The world should encourage curiosity and reward players who investigate their surroundings.
 
 ---
 
-### puzzle_design.md
+### Mystery Over Explanation
 
-Defines puzzle structure.
+Not every aspect of the Rot is meant to be fully understood.
 
-Includes:
-
-- puzzle types
-- progression gating
-- puzzle integration
+Some mysteries remain intentionally unexplained to reinforce the horror themes.
 
 ---
 
-# Enemy Design
+# Versioning
 
-Location:
+All documents include a **version identifier**.
 
+Current documentation version:
 
-docs/games/rot/enemy_design
+```
+ROT Documentation – Version 1.1
+```
 
-
-### enemy_design_document.md
-
-Defines enemy types and behaviors.
-
-Includes:
-
-- Rotters
-- Stalkers
-- Spliced
-- wildlife mutations
-- boss entities
+Version numbers are updated when major structural changes or design revisions occur.
 
 ---
 
-# Gameplay Systems
+# Contributing
 
-Location:
+When editing or adding documentation:
 
+1. Maintain consistent formatting across documents.
+2. Follow the existing folder structure.
+3. Avoid duplicating information across multiple files.
+4. Update version numbers when major revisions occur.
+5. Cross-reference related documents when appropriate.
 
-docs/games/rot/systems
-
-
-Core gameplay system documentation.
-
-Includes:
-
-- player_controller.md
-- interaction_system.md
-- inventory_system.md
-- combat_system.md
-- enemy_ai_system.md
-- stealth_system.md
-- crafting_system.md
-- save_system.md
-- puzzle_system.md
-- boss_system.md
-- ui_system.md
-- audio_system.md
-
-These documents define the **mechanics that power gameplay**.
-
----
-
-# Engineering
-
-Location:
-
-
-docs/games/rot/engineering
-
-
-Defines internal software architecture.
-
-Includes:
-
-- project_architecture.md
-- data_structures.md
-- state_management.md
-- save_data_format.md
-- ai_state_machine.md
-- input_system.md
-- performance_strategy.md
-
----
-
-# Pipelines
-
-Location:
-
-
-docs/games/rot/pipelines
-
-
-Defines asset production workflows.
-
-Includes:
-
-- environment_pipeline.md
-- enemy_pipeline.md
-- animation_pipeline.md
-- audio_pipeline.md
-- asset_naming_conventions.md
-
----
-
-# Testing
-
-Location:
-
-
-docs/games/rot/testing
-
-
-Includes:
-
-- test_plan.md
-- bug_reporting.md
-- playtest_protocol.md
-
----
-
-# Tools
-
-Location:
-
-
-docs/games/rot/tools
-
-
-Includes:
-
-- editor_tools.md
-- debug_tools.md
-
----
-
-# Lore
-
-Location:
-
-
-docs/games/rot/lore
-
-
-Includes narrative background and world history.
-
-### timeline.md
-
-Chronological history of the ROT universe.
-
----
-
-### halcyon_records.md
-
-Recovered Halcyon research documents.
-
----
-
-### blackwater_history.md
-
-History of Blackwater Cove before the outbreak.
-
----
-
-# Game Implementation
-
-Location:
-
-
-game
-
-
-This folder will contain the **actual game project and source code** once development begins.
-
----
-
-# Development Status
-
-Current phase:
-
-**Documentation Complete**
-
-Next step:
-
-**Vertical Slice Prototype**
-
-Systems to implement first:
-
-1. Player Controller
-2. Camera System
-3. Interaction System
-4. Inventory System
-5. Combat Prototype
-6. Enemy AI Prototype
-7. First Test Level
+Documentation should remain **clear, concise, and production-ready**.
 
 ---
 
 # License
 
-To be determined.
+This repository contains design documentation for the ROT project.
+
+All content is part of the ROT intellectual property.
+
+Use or distribution of this material outside the project requires permission from the project owner.
+
+---
+
+# Status
+
+Project Status: Active Design Development
+Documentation Version: 1.1
 
 ---

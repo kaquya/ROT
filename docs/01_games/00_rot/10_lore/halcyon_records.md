@@ -256,3 +256,12 @@ This document defines the structure and role of Halcyon Initiative records withi
 These records provide the primary method through which players uncover the history of the Rot research program and the events that led to the collapse of Blackwater Cove.
 
 ---
+
+## Related Documents
+
+timeline.md
+halcyon_factions.md
+collectibles_design.md
+rot_mysteries.md
+
+---

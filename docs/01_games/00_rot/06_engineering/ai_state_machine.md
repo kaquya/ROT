@@ -324,3 +324,11 @@ A clear state machine structure ensures that enemy behavior remains predictable,
 This system forms the foundation for enemy behavior across the game.
 
 ---
+
+## Related Documents
+
+enemy_ai_system.md
+ai_perception_system.md
+state_management.md
+
+---

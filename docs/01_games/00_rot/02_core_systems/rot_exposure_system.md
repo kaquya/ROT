@@ -251,3 +251,13 @@ The Rot Exposure System reinforces the ecological horror identity of ROT by turn
 By managing exposure levels, players must carefully navigate contaminated ecosystems while uncovering the mysteries of the Rot.
 
 ---
+
+## Related Documents
+
+player_stats.md
+enemy_stats.md
+rot_ecology.md
+combat_system.md
+audio_gameplay_system.md
+
+---

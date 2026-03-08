@@ -179,3 +179,12 @@ The Save System balances player protection with survival horror tension by combi
 Following these guidelines ensures that saving supports the pacing and atmosphere of the game.
 
 ---
+
+## Related Documents
+
+save_data_format.md
+state_management.md
+inventory_system.md
+player_stats.md
+
+---

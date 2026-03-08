@@ -263,3 +263,12 @@ By controlling enemy health, damage, detection ability, and environmental effect
 Enemy stats support the broader goal of portraying the Rot ecosystem as a dangerous and evolving biological environment.
 
 ---
+
+## Related Documents
+
+enemy_design_document.md
+enemy_ai_system.md
+combat_system.md
+difficulty_balance.md
+
+---

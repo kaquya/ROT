@@ -206,3 +206,12 @@ This document defines the narrative arc of Elena within the story of ROT.
 By clearly defining her motivations and emotional journey, the narrative design ensures that the player’s experience remains grounded in a personal story even while confronting a vast and unknowable biological phenomenon.
 
 ---
+
+## Related Documents
+
+timeline.md
+blackwater_history.md
+halcyon_records.md
+world_map.md
+
+---

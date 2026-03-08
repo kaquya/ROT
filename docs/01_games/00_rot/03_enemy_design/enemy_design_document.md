@@ -268,3 +268,12 @@ By treating creatures as part of an evolving ecosystem, enemy encounters remain 
 These guidelines ensure that enemies reinforce the identity of the Rot ecosystem while providing diverse and engaging gameplay challenges.
 
 ---
+
+## Related Documents
+
+enemy_ai_system.md
+enemy_stats.md
+creature_design_rules.md
+creature_ecosystem_roles.md
+
+---

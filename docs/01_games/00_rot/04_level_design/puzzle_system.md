@@ -231,3 +231,11 @@ This document defines how puzzles function within ROT.
 Puzzle design supports exploration, environmental storytelling, and player progression. By grounding puzzles in believable environmental systems, the game maintains immersion while providing meaningful challenges.
 
 ---
+
+## Related Documents
+
+puzzle_examples.md
+interaction_system.md
+level_design.md
+
+---

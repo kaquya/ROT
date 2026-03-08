@@ -304,3 +304,10 @@ This document defines how player input is processed and translated into gameplay
 By separating hardware input from gameplay systems, the Input System ensures flexibility, responsiveness, and maintainability throughout development.
 
 ---
+
+## Related Documents
+
+player_controller_system.md
+project_architecture.md
+
+---

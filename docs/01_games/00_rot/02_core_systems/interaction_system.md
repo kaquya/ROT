@@ -194,3 +194,12 @@ By establishing clear interaction rules, the system ensures that objects, doors,
 These guidelines support exploration, narrative discovery, and environmental immersion.
 
 ---
+
+## Related Documents
+
+systems_overview.md
+inventory_system.md
+puzzle_system.md
+collectibles_design.md
+
+---

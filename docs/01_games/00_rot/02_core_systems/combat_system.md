@@ -220,3 +220,14 @@ It establishes the rules for weapon usage, attack mechanics, hit detection, and 
 By following these principles, combat encounters remain tense, resource driven, and consistent with the survival horror identity of the game.
 
 ---
+
+## Related Documents
+
+systems_overview.md
+combat_system.md
+stealth_system.md
+interaction_system.md
+player_stats.md
+input_system.md
+
+---

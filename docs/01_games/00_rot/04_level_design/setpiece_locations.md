@@ -283,3 +283,12 @@ These locations provide some of the most memorable environments in the game worl
 By designing visually distinct and narratively meaningful locations, setpieces help shape the identity of Blackwater Cove and reinforce the ecological horror of the Rot ecosystem.
 
 ---
+
+## Related Documents
+
+world_map.md
+boss_system.md
+encounter_design.md
+timeline.md
+
+---

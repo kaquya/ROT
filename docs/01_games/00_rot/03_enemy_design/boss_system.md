@@ -254,3 +254,12 @@ Boss creatures represent the most powerful and ecologically significant organism
 By integrating bosses with environmental storytelling and survival focused gameplay, encounters remain consistent with the biological horror identity of the game.
 
 ---
+
+## Related Documents
+
+enemy_design_document.md
+enemy_stats.md
+combat_system.md
+setpiece_locations.md
+
+---

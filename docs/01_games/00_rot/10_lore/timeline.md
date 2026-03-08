@@ -359,3 +359,12 @@ The timeline serves as a reference for:
 Understanding the history of the town helps ensure that all narrative elements remain consistent throughout the game world.
 
 ---
+
+## Related Documents
+
+blackwater_history.md
+halcyon_records.md
+halcyon_factions.md
+world_map.md
+
+---

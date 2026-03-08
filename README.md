@@ -1,18 +1,17 @@
 # ROT – Survival Horror Game Documentation
 
-Version: 1.1
-Status: Active Design Documentation
+Documentation Version: 1.1
+Project Status: Active Design Development
 
 ---
 
 # Overview
 
-This repository contains the **complete design documentation for ROT**, a narrative-driven survival horror game set in the coastal town of **Blackwater Cove**.
+This repository contains the complete design documentation for **ROT**, a narrative-driven survival horror game set in the coastal town of **Blackwater Cove**.
 
-ROT focuses on **biological horror, ecological mutation, and exploration-driven storytelling**.
-The world is being consumed by a mysterious biological system known as **the Rot**, which restructures living organisms into new ecological forms.
+ROT focuses on **biological horror, ecological mutation, and exploration-driven storytelling**. The world is being consumed by a mysterious biological system known as **the Rot**, which restructures living organisms and environments into new ecological forms.
 
-This repository serves as the **central design reference** for the project and documents every major aspect of the game, including:
+This repository serves as the central design reference for the project and documents every major aspect of the game, including:
 
 * gameplay systems
 * enemy design
@@ -21,7 +20,7 @@ This repository serves as the **central design reference** for the project and d
 * engineering architecture
 * production planning
 
-The documentation is intended to support **long-term development and collaboration**.
+The documentation is intended to support **long-term development, design consistency, and collaboration**.
 
 ---
 
@@ -40,7 +39,7 @@ The game emphasizes:
 
 The Rot is not a traditional infection.
 
-Instead, it behaves like a **biological restructuring system**, reorganizing life and environments into a new ecosystem.
+Instead, it behaves like a **biological restructuring system**, reorganizing life and environments into a new ecological ecosystem.
 
 ---
 
@@ -87,66 +86,94 @@ Players reconstruct the history of the outbreak by piecing together fragments of
 
 # Repository Structure
 
-The repository is organized into two main sections:
+The repository is organized into two main sections.
+
+## Documentation
+
+All design documentation is located in:
 
 ```
 docs/
 ```
 
-```
-00_franchise/
-```
+The documentation is divided into two primary areas:
 
-Franchise-level documentation that defines the overall universe and creative rules for the ROT setting.
-
-Includes:
-
-* worldbuilding
-* visual identity
-* creature design rules
-* environment design philosophy
-* franchise direction
-
-These documents guide **all projects set in the ROT universe**.
+* **Franchise documentation** defining the ROT universe
+* **Game-specific documentation** for the ROT project
 
 ---
 
+## Franchise Documentation
+
+Location:
+
 ```
-01_games/
-    00_rot/
+docs/00_franchise/
 ```
 
-Game-specific documentation for the first ROT project.
+Franchise-level documentation defines the broader ROT universe and creative rules used across all projects set within the ROT setting.
 
-This section contains detailed design documentation for every system in the game.
+Topics include:
 
-Key categories include:
+* franchise vision
+* worldbuilding
+* Rot ecology
+* visual identity
+* creature design rules
+* environmental storytelling
+* franchise production strategy
 
-| Folder                 | Description                        |
-| ---------------------- | ---------------------------------- |
-| 00_overview            | High-level description of the game |
-| 01_game_design         | Core game design documents         |
-| 02_core_systems        | Gameplay systems                   |
-| 03_enemy_design        | Enemy behavior and design          |
-| 04_level_design        | World layout and exploration       |
-| 05_progression_balance | Player and enemy balance           |
-| 06_engineering         | Technical architecture             |
-| 07_pipelines           | Asset production pipelines         |
-| 08_testing             | QA and testing procedures          |
-| 09_tools               | Internal development tools         |
-| 10_lore                | Narrative and world lore           |
-| 11_production          | Development planning               |
+---
+
+## ROT Game Documentation
+
+Location:
+
+```
+docs/01_games/00_rot/
+```
+
+Game-specific documentation describes every system used in the ROT project.
+
+Key documentation areas include:
+
+| Folder                 | Description                     |
+| ---------------------- | ------------------------------- |
+| 00_overview            | High level overview of the game |
+| 01_game_design         | Core game design documents      |
+| 02_core_systems        | Gameplay systems                |
+| 03_enemy_design        | Enemy design and AI             |
+| 04_level_design        | World and exploration design    |
+| 05_progression_balance | Player and enemy balancing      |
+| 06_engineering         | Technical architecture          |
+| 07_pipelines           | Asset production pipelines      |
+| 08_testing             | Testing and QA procedures       |
+| 09_tools               | Internal development tools      |
+| 10_lore                | Narrative and world lore        |
+| 11_production          | Production planning             |
+
+---
+
+# Documentation Navigation
+
+For a complete index of all documentation files see:
+
+```
+docs/README.md
+```
+
+This file acts as the **table of contents for the entire documentation system**.
 
 ---
 
 # Key Documents
 
-If you are new to the project, start with these documents.
+If you are new to the project, start with the following documents.
 
 ### Game Overview
 
 ```
-01_games/00_rot/00_overview/game_overview.md
+docs/01_games/00_rot/00_overview/game_overview.md
 ```
 
 Provides a high-level explanation of the game concept and setting.
@@ -156,7 +183,7 @@ Provides a high-level explanation of the game concept and setting.
 ### Gameplay Pillars
 
 ```
-01_games/00_rot/00_overview/gameplay_pillars.md
+docs/01_games/00_rot/00_overview/gameplay_pillars.md
 ```
 
 Defines the core design philosophy of the game.
@@ -166,7 +193,7 @@ Defines the core design philosophy of the game.
 ### Gameplay Loop
 
 ```
-01_games/00_rot/01_game_design/gameplay_loop.md
+docs/01_games/00_rot/01_game_design/gameplay_loop.md
 ```
 
 Explains the main gameplay cycle:
@@ -177,59 +204,57 @@ explore → scavenge → survive → uncover story → progress
 
 ---
 
-### Rot Exposure System
+### Systems Overview
 
 ```
-01_games/00_rot/02_core_systems/rot_exposure_system.md
+docs/01_games/00_rot/02_core_systems/systems_overview.md
 ```
 
-One of the core mechanics of the game.
-
-Defines contamination mechanics and how the Rot affects the player.
+Provides a high level explanation of how the gameplay systems interact.
 
 ---
 
 ### World Map
 
 ```
-01_games/00_rot/04_level_design/world_map.md
+docs/01_games/00_rot/04_level_design/world_map.md
 ```
 
-Describes the structure of Blackwater Cove and its districts.
+Defines the structure of Blackwater Cove and its districts.
 
 ---
 
 ### Timeline
 
 ```
-01_games/00_rot/10_lore/timeline.md
+docs/01_games/00_rot/10_lore/timeline.md
 ```
 
-Historical timeline of the outbreak and events surrounding the town.
+Explains the historical events leading to the Rot outbreak.
 
 ---
 
 # Development Philosophy
 
-The project follows several design principles.
+ROT follows several core development principles.
 
 ### Consistency
 
-All systems should follow consistent terminology and design philosophy.
+All systems follow consistent terminology and design philosophy defined across the documentation.
 
 ---
 
-### Modular Design
+### Modular Systems
 
-Systems are designed to be modular and expandable.
+Gameplay systems are designed to be modular and expandable.
 
-This allows the game to scale without requiring major rewrites.
+This allows the project to grow without requiring large architectural rewrites.
 
 ---
 
 ### Exploration First
 
-The world should encourage curiosity and reward players who investigate their surroundings.
+The world design encourages curiosity and rewards players who investigate their surroundings.
 
 ---
 
@@ -237,13 +262,13 @@ The world should encourage curiosity and reward players who investigate their su
 
 Not every aspect of the Rot is meant to be fully understood.
 
-Some mysteries remain intentionally unexplained to reinforce the horror themes.
+Some mysteries remain intentionally unexplained to reinforce the horror themes of the game.
 
 ---
 
 # Versioning
 
-All documents include a **version identifier**.
+All documentation files include a version identifier.
 
 Current documentation version:
 
@@ -251,7 +276,13 @@ Current documentation version:
 ROT Documentation – Version 1.1
 ```
 
-Version numbers are updated when major structural changes or design revisions occur.
+Version numbers are updated when:
+
+* major structural changes occur
+* gameplay systems are redesigned
+* documentation architecture changes
+
+Minor edits do not require version updates.
 
 ---
 
@@ -259,13 +290,17 @@ Version numbers are updated when major structural changes or design revisions oc
 
 When editing or adding documentation:
 
-1. Maintain consistent formatting across documents.
-2. Follow the existing folder structure.
+1. Maintain consistent formatting across all documents.
+2. Follow the established folder structure.
 3. Avoid duplicating information across multiple files.
 4. Update version numbers when major revisions occur.
-5. Cross-reference related documents when appropriate.
+5. Add cross-references between related documents when appropriate.
 
-Documentation should remain **clear, concise, and production-ready**.
+Full contribution rules are defined in:
+
+```
+CONTRIBUTING.md
+```
 
 ---
 
@@ -275,7 +310,7 @@ This repository contains design documentation for the ROT project.
 
 All content is part of the ROT intellectual property.
 
-Use or distribution of this material outside the project requires permission from the project owner.
+Use, reproduction, or distribution of this material outside the project requires permission from the project owner.
 
 ---
 

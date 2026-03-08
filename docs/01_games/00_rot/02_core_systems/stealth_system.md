@@ -227,3 +227,13 @@ It establishes how visibility, noise, and enemy detection interact to create ste
 Following these guidelines ensures that stealth encounters remain tense, readable, and consistent with the survival horror identity of the game.
 
 ---
+
+## Related Documents
+
+systems_overview.md
+enemy_ai_system.md
+ai_perception_system.md
+audio_gameplay_system.md
+player_controller_system.md
+
+---

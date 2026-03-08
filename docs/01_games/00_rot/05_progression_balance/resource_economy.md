@@ -219,3 +219,12 @@ This document defines how resources are distributed and balanced throughout ROT.
 By maintaining scarcity, rewarding exploration, and encouraging strategic decision making, the resource economy reinforces the survival horror identity of the game.
 
 ---
+
+## Related Documents
+
+inventory_system.md
+crafting_system.md
+difficulty_balance.md
+weapons_items.md
+
+---

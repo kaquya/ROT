@@ -261,3 +261,11 @@ A well structured state management system ensures that gameplay systems remain s
 Clear state architecture also supports reliable saving, loading, and progression tracking.
 
 ---
+
+## Related Documents
+
+project_architecture.md
+save_system.md
+ai_state_machine.md
+
+---

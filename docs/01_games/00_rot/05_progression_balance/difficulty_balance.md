@@ -218,3 +218,12 @@ This document defines how difficulty is structured and balanced within ROT.
 By carefully controlling enemy strength, resource distribution, and environmental hazards, the game maintains a tense survival horror experience while remaining fair and engaging.
 
 ---
+
+## Related Documents
+
+player_stats.md
+enemy_stats.md
+resource_economy.md
+encounter_design.md
+
+---

@@ -262,3 +262,12 @@ This document defines the categories and design philosophy of weapons and items 
 By maintaining scarcity, environmental consistency, and tactical variety, the weapons and items system reinforces the survival horror experience and encourages careful resource management.
 
 ---
+
+## Related Documents
+
+combat_system.md
+inventory_system.md
+crafting_system.md
+resource_economy.md
+
+---

@@ -270,3 +270,13 @@ By designing enemies as ecological organisms rather than scripted opponents, the
 These AI rules ensure that encounters remain tense, readable, and consistent with the biological horror identity of the Rot universe.
 
 ---
+
+## Related Documents
+
+ai_state_machine.md
+ai_perception_system.md
+enemy_design_document.md
+combat_system.md
+stealth_system.md
+
+---

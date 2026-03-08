@@ -213,3 +213,13 @@ This document defines the UI philosophy used in ROT.
 By following these guidelines, the interface remains clear, immersive, and supportive of the survival horror atmosphere while delivering essential gameplay information to the player.
 
 ---
+
+## Related Documents
+
+inventory_system.md
+player_stats.md
+rot_exposure_system.md
+combat_system.md
+interaction_system.md
+
+---

@@ -184,3 +184,13 @@ The Inventory System ensures that resource management remains an important part 
 Maintaining clear inventory rules helps support the survival horror identity of the game.
 
 ---
+
+## Related Documents
+
+systems_overview.md
+crafting_system.md
+weapons_items.md
+resource_economy.md
+ui_system.md
+
+---

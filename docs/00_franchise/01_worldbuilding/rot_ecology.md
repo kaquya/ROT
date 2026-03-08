@@ -208,3 +208,12 @@ It provides a framework for designing creatures, environments, and narrative ele
 All biological transformations, mutated organisms, and environmental changes should follow the principles described here to maintain consistency across the franchise.
 
 ---
+
+## Related Documents
+
+rot_visual_design.md
+creature_ecosystem_roles.md
+rot_mysteries.md
+rot_exposure_system.md
+
+---

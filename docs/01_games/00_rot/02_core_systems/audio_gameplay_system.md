@@ -215,3 +215,12 @@ Enemy cues, environmental sounds, and tension design work together to create a s
 Following these guidelines ensures that audio remains a key part of both the survival mechanics and the horror atmosphere of the game.
 
 ---
+
+## Related Documents
+
+combat_system.md
+enemy_ai_system.md
+stealth_system.md
+ai_perception_system.md
+
+---

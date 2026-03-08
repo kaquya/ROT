@@ -223,3 +223,11 @@ It provides guidance for artists, designers, and writers so that creature design
 Following these rules ensures that creatures remain believable, unsettling, and integrated into the Rot ecosystem.
 
 ---
+
+## Related Documents
+
+creature_ecosystem_roles.md
+enemy_design_document.md
+rot_ecology.md
+
+---

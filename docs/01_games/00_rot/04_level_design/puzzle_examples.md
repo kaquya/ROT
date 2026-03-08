@@ -243,3 +243,11 @@ These examples demonstrate how puzzles should remain grounded in environmental l
 Future puzzles should follow similar principles while adapting to the unique environments of each district.
 
 ---
+
+## Related Documents
+
+puzzle_system.md
+interaction_system.md
+district_design.md
+
+---

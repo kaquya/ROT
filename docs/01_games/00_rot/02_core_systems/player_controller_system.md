@@ -164,3 +164,14 @@ This document defines the movement and traversal rules for the player in ROT.
 By establishing consistent movement behavior, the Player Controller System ensures that exploration, stealth, and survival mechanics work together to support the overall gameplay experience.
 
 ---
+
+## Related Documents
+
+systems_overview.md
+combat_system.md
+stealth_system.md
+interaction_system.md
+player_stats.md
+input_system.md
+
+---

@@ -367,3 +367,12 @@ By giving each district a clear environmental identity and gameplay purpose, the
 These guidelines ensure that the progression through the town reflects both narrative escalation and ecological transformation.
 
 ---
+
+## Related Documents
+
+world_map.md
+encounter_design.md
+environmental_storytelling_rules.md
+architecture_rules.md
+
+---

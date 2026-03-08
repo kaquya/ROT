@@ -195,3 +195,12 @@ Health, stamina, and contamination tolerance form the foundation of the player's
 These systems reinforce the survival horror design of the game by limiting player power and emphasizing careful resource management.
 
 ---
+
+## Related Documents
+
+combat_system.md
+rot_exposure_system.md
+inventory_system.md
+ui_system.md
+
+---

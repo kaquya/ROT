@@ -273,3 +273,12 @@ This document defines how collectibles function within ROT.
 Collectibles allow players to discover the story of Blackwater Cove through exploration and observation. By distributing narrative fragments throughout the world, the game encourages curiosity while maintaining the mystery surrounding the Rot ecosystem.
 
 ---
+
+## Related Documents
+
+halcyon_records.md
+timeline.md
+world_map.md
+interaction_system.md
+
+---

@@ -251,3 +251,11 @@ This document defines the unexplained phenomena associated with the Rot ecosyste
 These mysteries guide narrative design and environmental storytelling while preserving the sense that the Rot represents something fundamentally beyond human understanding.
 
 ---
+
+## Related Documents
+
+rot_ecology.md
+halcyon_records.md
+timeline.md
+
+---

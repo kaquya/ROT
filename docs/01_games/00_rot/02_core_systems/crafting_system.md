@@ -168,3 +168,12 @@ It establishes the rules for crafting resources, recipes, and crafting stations.
 Following these guidelines ensures that crafting supports the survival gameplay loop while remaining grounded in the realistic world of ROT.
 
 ---
+
+## Related Documents
+
+inventory_system.md
+resource_economy.md
+weapons_items.md
+ui_system.md
+
+---

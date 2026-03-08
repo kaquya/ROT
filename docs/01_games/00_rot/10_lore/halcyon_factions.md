@@ -222,3 +222,11 @@ This document defines the internal structure and ideological divisions of the Ha
 Understanding these factions helps explain the decisions that led to the Rot outbreak and provides narrative context for the events discovered throughout the game world.
 
 ---
+
+## Related Documents
+
+halcyon_records.md
+timeline.md
+rot_mysteries.md
+
+---

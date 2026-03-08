@@ -229,3 +229,12 @@ This document defines how enemies detect and interpret player presence in ROT.
 By combining sound detection, vision detection, and investigation behavior, the AI Perception System creates believable and tense encounters that reward careful movement and environmental awareness.
 
 ---
+
+## Related Documents
+
+enemy_ai_system.md
+stealth_system.md
+audio_gameplay_system.md
+player_controller_system.md
+
+---

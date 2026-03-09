@@ -167,11 +167,12 @@ By establishing consistent movement behavior, the Player Controller System ensur
 
 ## Related Documents
 
-systems_overview.md
-combat_system.md
-stealth_system.md
-interaction_system.md
-player_stats.md
-input_system.md
+
+[Systems Overview](./systems_overview.md)  
+[Combat System](./combat_system.md)  
+[Stealth System](./stealth_system.md)  
+[Interaction System](./interaction_system.md)  
+[Player Stats](../05_progression_balance/player_stats.md)  
+[Input System](../06_engineering/input_system.md)  
 
 ---

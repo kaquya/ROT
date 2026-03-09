@@ -380,15 +380,15 @@ Understanding these relationships helps developers implement features consistent
 
 ## Related Documents
 
-player_controller_system.md
-combat_system.md
-stealth_system.md
-interaction_system.md
-inventory_system.md
-crafting_system.md
-rot_exposure_system.md
-ui_system.md
-audio_gameplay_system.md
-save_system.md
+[Player Controller System](./player_controller_system.md)  
+[Combat System](./combat_system.md)  
+[Stealth System](./stealth_system.md)  
+[Inventory System](./inventory_system.md)  
+[Crafting System](./crafting_system.md)  
+[Rot Exposure System](./rot_exposure_system.md)  
+[Save System](./save_system.md)  
+[UI System](./ui_system.md)  
+[Audio Gameplay System](./audio_gameplay_system.md)  
+[Core Systems Diagram](./core_systems_diagram.md)  
 
 ---

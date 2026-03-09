@@ -198,9 +198,9 @@ These systems reinforce the survival horror design of the game by limiting playe
 
 ## Related Documents
 
-combat_system.md
-rot_exposure_system.md
-inventory_system.md
-ui_system.md
+[Combat System](../02_core_systems/combat_system.md)  
+[Rot Exposure System](../02_core_systems/rot_exposure_system.md)  
+[Inventory System](../02_core_systems/inventory_system.md)  
+[UI System](../02_core_systems/ui_system.md)  
 
 ---

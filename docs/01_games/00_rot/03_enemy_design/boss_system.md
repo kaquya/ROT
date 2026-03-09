@@ -257,9 +257,9 @@ By integrating bosses with environmental storytelling and survival focused gamep
 
 ## Related Documents
 
-enemy_design_document.md
-enemy_stats.md
-combat_system.md
-setpiece_locations.md
+[Enemy Design Document](./enemy_design_document.md)  
+[Enemy Stats](../05_progression_balance/enemy_stats.md)  
+[Combat System](../02_core_systems/combat_system.md)  
+[Setpiece Locations](../04_level_design/setpiece_locations.md)  
 
 ---

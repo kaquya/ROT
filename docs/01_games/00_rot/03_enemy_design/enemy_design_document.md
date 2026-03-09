@@ -271,9 +271,9 @@ These guidelines ensure that enemies reinforce the identity of the Rot ecosystem
 
 ## Related Documents
 
-enemy_ai_system.md
-enemy_stats.md
-creature_design_rules.md
-creature_ecosystem_roles.md
+[Enemy AI Sysetm](./enemy_ai_system.md)  
+[Enemy Stats](../05_progression_balance/enemy_stats.md)  
+[Creature Design Rules](../../../00_franchise/03_creature_design/creature_design_rules.md)  
+[Creature Ecosystem Rules](../../../00_franchise/03_creature_design/creature_ecosystem_roles.md)  
 
 ---

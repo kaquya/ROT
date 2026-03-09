@@ -217,9 +217,10 @@ Encounters should always feel connected to the environment and the evolving Rot 
 
 ## Related Documents
 
-enemy_design_document.md
 enemy_ai_system.md
-world_map.md
+ai_perception_system.md
+difficulty_balance.md
 district_design.md
+puzzle_system.md
 
 ---

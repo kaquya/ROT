@@ -327,8 +327,8 @@ This system forms the foundation for enemy behavior across the game.
 
 ## Related Documents
 
-enemy_ai_system.md
-ai_perception_system.md
-state_management.md
+[Enemy AI System](../03_enemy_design/enemy_ai_system.md)  
+[AI Perception System](../03_enemy_design/ai_perception_system.md)  
+[State Management](./state_management.md)  
 
 ---

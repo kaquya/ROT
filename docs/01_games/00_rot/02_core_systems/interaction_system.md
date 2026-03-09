@@ -197,9 +197,9 @@ These guidelines support exploration, narrative discovery, and environmental imm
 
 ## Related Documents
 
-systems_overview.md
-inventory_system.md
-puzzle_system.md
-collectibles_design.md
+[Systems Overview](./systems_overview.md)  
+[Inventory System](./inventory_system.md)  
+[Puzzle System](./puzzle_system.md)  
+[Collectibles Design](../04_level_design/collectibles_design.md)  
 
 ---

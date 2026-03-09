@@ -266,9 +266,10 @@ Enemy stats support the broader goal of portraying the Rot ecosystem as a danger
 
 ## Related Documents
 
-enemy_design_document.md
-enemy_ai_system.md
-combat_system.md
-difficulty_balance.md
+[Enemy Design Document](../03_enemy_design/enemy_design_document.md)   
+[Enemy AI System](../03_enemy_design/enemy_ai_system.md)   
+[Combat System](../02_core_systems/combat_system.md)  
+[Difficulty Balance](./difficulty_balance.md)  
+
 
 ---

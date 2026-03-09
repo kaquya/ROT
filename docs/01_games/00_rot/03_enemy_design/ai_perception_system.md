@@ -232,9 +232,10 @@ By combining sound detection, vision detection, and investigation behavior, the 
 
 ## Related Documents
 
-enemy_ai_system.md
-stealth_system.md
-audio_gameplay_system.md
-player_controller_system.md
+[Enemy AI System](./enemy_ai_system.md)  
+[Stealth System](../02_core_systems/stealth_system.md)  
+[Audio Gameplay System](../02_core_systems/audio_gameplay_system.md)  
+[Player Controller System](../02_core_systems/player_controller_system.md)  
+[Interaction System](../02_core_systems/interaction_system.md)  
 
 ---

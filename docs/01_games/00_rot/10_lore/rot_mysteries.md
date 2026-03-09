@@ -254,8 +254,8 @@ These mysteries guide narrative design and environmental storytelling while pres
 
 ## Related Documents
 
-rot_ecology.md
-halcyon_records.md
-timeline.md
+[Rot Ecology](../../../00_franchise/01_worldbuilding/rot_ecology.md)    
+[Halcyon Records](./halcyon_records.md)     
+[Timeline](./timeline.md)       
 
 ---

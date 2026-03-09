@@ -187,10 +187,11 @@ Maintaining clear inventory rules helps support the survival horror identity of 
 
 ## Related Documents
 
-systems_overview.md
-crafting_system.md
-weapons_items.md
-resource_economy.md
-ui_system.md
+
+[Systems Overview](./systems_overview.md)  
+[Crafting System](./crafting_system.md)  
+[Weapons and Items](../05_progression_balance/weapons_items.md)  
+[Resource Economy](../05_progression_balance/resource_economy.md)  
+[UI System](./ui_system.md)  
 
 ---

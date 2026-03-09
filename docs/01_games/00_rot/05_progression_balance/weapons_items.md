@@ -265,9 +265,9 @@ By maintaining scarcity, environmental consistency, and tactical variety, the we
 
 ## Related Documents
 
-combat_system.md
-inventory_system.md
-crafting_system.md
-resource_economy.md
+[Combat System](../02_core_systems/combat_system.md)  
+[Inventory System](../02_core_systems/inventory_system.md)  
+[Crafting System](../02_core_systems/crafting_system.md)  
+[Resource Economy](./resource_economy.md)   
 
 ---

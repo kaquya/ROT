@@ -236,6 +236,7 @@ Puzzle design supports exploration, environmental storytelling, and player progr
 
 puzzle_examples.md
 interaction_system.md
-level_design.md
+district_design.md
+world_map.md
 
 ---

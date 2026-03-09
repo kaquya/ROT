@@ -222,9 +222,10 @@ By maintaining scarcity, rewarding exploration, and encouraging strategic decisi
 
 ## Related Documents
 
-inventory_system.md
-crafting_system.md
-difficulty_balance.md
-weapons_items.md
+[Balance Values](./balance_values.md)   
+[Difficulty Balance](./difficulty_balance.md)  
+[Inventory System](../02_core_systems/inventory_system.md)  
+[Crafting System](../02_core_systems/crafting_system.md)  
+[Collectibles Design](../04_level_design/collectibles_design.md)    
 
 ---

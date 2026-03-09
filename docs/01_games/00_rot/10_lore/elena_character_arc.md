@@ -209,9 +209,9 @@ By clearly defining her motivations and emotional journey, the narrative design 
 
 ## Related Documents
 
-timeline.md
-blackwater_history.md
-halcyon_records.md
-world_map.md
+[Timeline](./timeline.md)      
+[Blackwater History](./blackwater_history.md)   
+[Halcyon Records](./halcyon_records.md)     
+[World Map](./world_map.md)     
 
 ---

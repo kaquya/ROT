@@ -182,9 +182,9 @@ Following these guidelines ensures that saving supports the pacing and atmospher
 
 ## Related Documents
 
-save_data_format.md
-state_management.md
-inventory_system.md
-player_stats.md
+[Save Data Format](../06_engineering/save_data_format.md)  
+[State Management](../06_engineering/state_management.md)  
+[Inventory System](./inventory_system.md)  
+[Player Stats](../05_progression_balance/player_stats.md)  
 
 ---

@@ -165,8 +165,7 @@ These rules help maintain consistency across all ROT environments.
 
 ## Related Documents
 
-world_map.md
-district_design.md
-blackwater_history.md
-
+[World Map](../../01_games/00_rot/04_level_design/world_map.md)  
+[District Design](../../01_games/00_rot/04_level_design/district_design.md)  
+[Blackwater History](../../01_games/00_rot/10_lore/blackwater_history.md)
 ---

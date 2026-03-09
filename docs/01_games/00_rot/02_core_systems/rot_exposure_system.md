@@ -254,10 +254,9 @@ By managing exposure levels, players must carefully navigate contaminated ecosys
 
 ## Related Documents
 
-player_stats.md
-enemy_stats.md
-rot_ecology.md
-combat_system.md
-audio_gameplay_system.md
+[Rot Ecology](../../../00_franchise/01_worldbuilding/rot_ecology.md)  
+[Player Stats](../05_progression_balance/player_stats.md)  
+[Balance Values](../05_progression_balance/balance_values.md)  
+[World Map](../04_level_design/world_map.md)  
 
 ---

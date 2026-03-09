@@ -298,20 +298,15 @@ These structures provide the foundation for implementing the technical architect
 
 ---
 
-## Related Documents
+## Related Documents    
 
-project_architecture.md
-save_data_format.md
-inventory_system.md
-player_stats.md
-enemy_stats.md
-
----
-
-## Related Documents
-
-enemy_ai_system.md
-ai_perception_system.md
-state_management.md
+[Project Architecture](./project_architecture.md)  
+[Save Data Format](./save_data_format.md)  
+[Inventory System](../02_core_systems/inventory_system.md)  
+[Player Stats](../05_progression_balance/player_stats.md)   
+[Enemy Stats](../05_progression_balance/enemy_stats.md)   
+[Enemy AI System](../03_enemy_design/enemy_ai_system.md)   
+[AI Perception System](../03_enemy_design/ai_perception_system.md)   
+[State Management](./state_management.md)   
 
 ---

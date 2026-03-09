@@ -130,3 +130,14 @@ It ensures that exploration, narrative discovery, and equipment upgrades work to
 Maintaining these progression systems helps support the survival horror identity of the game while encouraging investigation and discovery.
 
 ---
+
+## Related Documents
+
+
+[Gameplay Loop](./gameplay_loop.md)  
+[Difficulty Balance](../05_progression_balance/difficulty_balance.md)  
+[Resource Economy](../05_progression_balance/resource_economy.md)  
+[Weapons & Items](../05_progression_balance/weapons_items.md)  
+[Player Stats](../05_progression_balance/weapons_items.md)  
+
+---

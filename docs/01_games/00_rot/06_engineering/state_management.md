@@ -264,8 +264,9 @@ Clear state architecture also supports reliable saving, loading, and progression
 
 ## Related Documents
 
-project_architecture.md
-save_system.md
-ai_state_machine.md
+[Project Architecture](./project_architecture.md)  
+[Save System](../02_core_systems/save_system.md)  
+[AI State Machine](./ai_state_machine.md)  
+[Data Structures](./data_structures.md)  
 
 ---

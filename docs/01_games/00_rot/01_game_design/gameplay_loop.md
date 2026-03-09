@@ -146,3 +146,14 @@ All gameplay systems, level design decisions, and progression mechanics should s
 Maintaining a clear and consistent gameplay loop ensures that the player experience remains focused and engaging throughout the game.
 
 ---
+
+## Related Documents
+
+[Game Design Document](./game_design_document.md)   
+[Player Progression](./player_progression.md)   
+[Player Controller System](../02_core_systems/player_controller_system.md)  
+[Combat System](../02_core_systems/combat_system.md)  
+[Inventory System](../02_core_systems/inventory_system.md)  
+[Crafting System](../02_core_systems/crafting_system.md)  
+
+---

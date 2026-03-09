@@ -287,8 +287,8 @@ By designing visually distinct and narratively meaningful locations, setpieces h
 ## Related Documents
 
 world_map.md
-boss_system.md
+district_design.md
 encounter_design.md
-timeline.md
+environmental_storytelling_rules.md
 
 ---

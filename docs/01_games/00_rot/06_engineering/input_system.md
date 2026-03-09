@@ -307,7 +307,7 @@ By separating hardware input from gameplay systems, the Input System ensures fle
 
 ## Related Documents
 
-player_controller_system.md
-project_architecture.md
+[Player Controller System](../02_core_systems/player_controller_system.md)   
+[Project Architecture](./project_architecture.md)  
 
 ---

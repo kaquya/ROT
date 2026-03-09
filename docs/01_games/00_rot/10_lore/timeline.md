@@ -362,9 +362,11 @@ Understanding the history of the town helps ensure that all narrative elements r
 
 ## Related Documents
 
-blackwater_history.md
-halcyon_records.md
-halcyon_factions.md
-world_map.md
+
+[World History](../../../00_franchise/01_worldbuilding/world_history.md)    
+[Blackwater History](./blackwater_history.md)   
+[Halcyon Records](./halcyon_records.md)     
+[Halcyon Factions](./halcyon_factions.md)   
+[Rot Mysteries](./rot_mysteries.md) 
 
 ---

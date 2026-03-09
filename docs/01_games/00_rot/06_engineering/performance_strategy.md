@@ -194,8 +194,8 @@ By optimizing systems, assets, and level design throughout development, the game
 
 ## Related Documents
 
-project_architecture.md
-enemy_ai_system.md
-world_map.md
+[Project Architecture](./project_architecture.md)  
+[Enemy AI System](../03_enemy_design/enemy_ai_system.md)   
+[World Map](../04_level_design/world_map.md)   
 
 ---

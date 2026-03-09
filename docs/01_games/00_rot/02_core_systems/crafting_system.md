@@ -171,9 +171,10 @@ Following these guidelines ensures that crafting supports the survival gameplay 
 
 ## Related Documents
 
-inventory_system.md
-resource_economy.md
-weapons_items.md
-ui_system.md
+
+[Inventory System](./inventory_system.md)  
+[Resource Economy](../05_progression_balance/resource_economy.md)  
+[Weapons and Items](../05_progression_balance/weapons_items.md)  
+[UI System](./ui_system.md)  
 
 ---

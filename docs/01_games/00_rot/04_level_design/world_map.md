@@ -303,9 +303,8 @@ Blackwater Cove should begin as a recognizable town but slowly transform into a 
 ## Related Documents
 
 district_design.md
-encounter_design.md
 setpiece_locations.md
-timeline.md
-blackwater_history.md
+encounter_design.md
+environmental_storytelling_rules.md
 
 ---

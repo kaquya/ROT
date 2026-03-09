@@ -221,9 +221,11 @@ By carefully controlling enemy strength, resource distribution, and environmenta
 
 ## Related Documents
 
-player_stats.md
-enemy_stats.md
-resource_economy.md
-encounter_design.md
+[Balance Values](./balance_values.md)   
+[Player Stats](./player_stats.md)   
+[Enemy Stats](./enemy_stats.md)   
+[Difficulty Balance](./difficulty_balance.md)   
+[Resource Economy](./resource_economy.md)   
+[Encounter Design](../04_level_design/encounter_design.md)  
 
 ---

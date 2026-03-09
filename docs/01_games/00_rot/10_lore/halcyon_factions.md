@@ -225,8 +225,8 @@ Understanding these factions helps explain the decisions that led to the Rot out
 
 ## Related Documents
 
-halcyon_records.md
-timeline.md
-rot_mysteries.md
+[Halcyon Records](./halcyon_records.md)     
+[Timeline](./timeline.md)      
+[World History](../../../00_franchise/01_worldbuilding/world_history.md)
 
 ---

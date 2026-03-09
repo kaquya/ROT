@@ -234,9 +234,9 @@ The collapse of the town becomes more impactful when players can see the traces 
 
 ## Related Documents
 
-timeline.md
-world_map.md
-architecture_rules.md
-environmental_storytelling_rules.md
+[Timeline](./timeline.md)  
+[World map](./world_map.md)  
+[Architecture Rules](../../../00_franchise/04_environment_design/architecture_rules.md)  
+[Environmental Storytelling Rules](../../../00_franchise/04_environment_design/environmental_storytelling_rules.md)  
 
 ---

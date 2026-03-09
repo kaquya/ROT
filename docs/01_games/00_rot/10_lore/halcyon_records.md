@@ -259,9 +259,9 @@ These records provide the primary method through which players uncover the histo
 
 ## Related Documents
 
-timeline.md
-halcyon_factions.md
-collectibles_design.md
-rot_mysteries.md
+[Halcyon Factions](./halcyon_factions.md)     
+[Timeline](./halcyon_timelinefactions.md)     
+[Rot Ecology](../../../00_franchise/01_worldbuilding/rot_ecology.md)    
+[Rot Mysteries](./rot_mysteries.md)     
 
 ---

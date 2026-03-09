@@ -372,7 +372,7 @@ These guidelines ensure that the progression through the town reflects both narr
 
 world_map.md
 encounter_design.md
-environmental_storytelling_rules.md
-architecture_rules.md
+puzzle_system.md
+setpiece_locations.md
 
 ---

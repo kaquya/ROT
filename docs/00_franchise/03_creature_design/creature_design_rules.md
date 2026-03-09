@@ -226,8 +226,9 @@ Following these rules ensures that creatures remain believable, unsettling, and 
 
 ## Related Documents
 
-creature_ecosystem_roles.md
-enemy_design_document.md
-rot_ecology.md
+  
+[Creature Ecosystem Roles](../03_creature_design/creature_ecosystem_roles.md)  
+[Enemy Design Document](../../01_games/00_rot/03_enemy_design/enemy_design_document.md)  
+[Rot Ecology](../01_worldbuilding/rot_ecology.md)
 
 ---

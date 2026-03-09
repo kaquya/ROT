@@ -273,10 +273,10 @@ These AI rules ensure that encounters remain tense, readable, and consistent wit
 
 ## Related Documents
 
-ai_state_machine.md
-ai_perception_system.md
-enemy_design_document.md
-combat_system.md
-stealth_system.md
+[AI State Machine](../06_engineering/ai_state_machine.md)  
+[AI Perception System](./ai_perception_system.md)  
+[Enemy Design Document](./enemy_design_document.md)  
+[Combat System](../02_core_systems/combat_system.md)  
+[Stealth System](../02_core_systems/stealth_system.md)  
 
 ---

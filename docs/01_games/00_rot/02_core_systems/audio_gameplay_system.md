@@ -218,9 +218,9 @@ Following these guidelines ensures that audio remains a key part of both the sur
 
 ## Related Documents
 
-combat_system.md
-enemy_ai_system.md
-stealth_system.md
-ai_perception_system.md
+[Combat System](./combat_system.md)  
+[Enemy AI System](../03_enemy_design/enemy_ai_system.md)     
+[Stealth System](./stealth_system.md)  
+[AI Perception System](../03_enemy_design/ai_perception_system.md)   
 
 ---

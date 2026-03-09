@@ -211,9 +211,9 @@ All biological transformations, mutated organisms, and environmental changes sho
 
 ## Related Documents
 
-rot_visual_design.md
-creature_ecosystem_roles.md
-rot_mysteries.md
-rot_exposure_system.md
+[Rot Visual Design](../02_visual_direction/rot_visual_design.md)    
+[Creature Ecosystem Roles](../03_creature_design/creature_ecosystem_roles.md)  
+[Rot Mysteries](../../01_games/00_rot/10_lore/rot_mysteries.md)  
+[Rot Exposure System](../../01_games/00_rot/02_core_systems/rot_exposure_system.md)
 
 ---

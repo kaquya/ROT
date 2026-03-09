@@ -216,10 +216,10 @@ By following these guidelines, the interface remains clear, immersive, and suppo
 
 ## Related Documents
 
-inventory_system.md
-player_stats.md
-rot_exposure_system.md
-combat_system.md
-interaction_system.md
+[Inventory System](./inventory_system.md)  
+[Player Stats](../05_progression_balance/player_stats.md)  
+[Rot Exposure System](./rot_exposure_system.md)  
+[Combat System](./combat_system.md)  
+[Interaction System](./interaction_system.md)  
 
 ---

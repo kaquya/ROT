@@ -223,11 +223,11 @@ By following these principles, combat encounters remain tense, resource driven, 
 
 ## Related Documents
 
-systems_overview.md
-combat_system.md
-stealth_system.md
-interaction_system.md
-player_stats.md
-input_system.md
+
+[Plyer Controller System](./player_controller_system.md)  
+[Enemy AI System](../03_enemy_design/enemy_ai_system.md)     
+[Enemy Stats](../05_progression_balance/enemy_stats.md)  
+[Weapons & Items](../05_progression_balance/weapons_items.md)  
+[Balance Values](../05_progression_balance/balance_values.md)  
 
 ---
